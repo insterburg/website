@@ -3,7 +3,10 @@
 <section class="hero-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
+              <img src="{{ .Site.Params.hero.image | absURL }}" class="img-fluid rounded" alt="insterburg-logo">
+            </div>
+            <div class="col-md-8">
                 <div class="block">
                     {{ with .Site.Params.hero.heading }}
                         <h2>{{ . }}</h2>

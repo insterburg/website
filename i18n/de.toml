@@ -1,0 +1,10 @@
+[about]
+other = "Über uns"
+[service]
+other = "Service"
+[portfolio]
+other = "Portfolio"
+[blog]
+other = "Blog"
+[contact]
+other = "Kontakt"

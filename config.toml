@@ -13,14 +13,59 @@ DefaultContentLanguage = "de"
     [[Params.listeLangues]]
     code = "en"
 
-[Languages]
+[languages]
     [Languages.de]
     title = "Insterburg"
-    logo = "images/insterburg-logo-small-bg.png"
+    logo = "/images/insterburg-logo-small-bg.png"
     languageCode = "de-de"
     home = "Home"
     menufixed = false
+    dateFormat = "6 January 2019"
     [Languages.de.params.hero]
         enable  = true
-        heading = "Insterburg"
-        description = "Die Insterburg ist ein selbstverwaltetes Studentenwohnheim in Karlsruhe."
+        heading = "Willkommen auf der Homepage der Insterburg"
+        description = """
+        Die Insterburg ist ein selbstverwaltetes Studentenwohnheim in Karlsruhe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur ad Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur ad
+        """
+        image = "/images/insterburg-logo-small.png"
+    # About 2 Section
+    [Languages.de.params.aboutSm]
+        enable  = true
+        title   = "ENGLISH We have explored the digital landscape with passion for a long time"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+    [Languages.en]
+      title = "Insterburg"
+      logo = "images/insterburg-logo-small-bg.png"
+      languageCode = "en-en"
+      home = "Home"
+      menufixed = false
+      dateFormat = "January 6, 2019"
+      [Languages.en.params.hero]
+          enable  = true
+          heading = "Insterburg"
+          description = "Die Insterburg ist ein selbstverwaltetes Studentenwohnheim in Karlsruhe."
+
+    # Site Menus
+    [menu]
+        # Navbar Menus
+        [[menu.nav]]
+            name    = "about"
+            url     = "about"
+            weight  = 2
+        [[menu.nav]]
+            name    = "service"
+            url     = "service"
+            weight  = 3
+        [[menu.nav]]
+            name    = "portfolio"
+            url     = "portfolio"
+            weight  = 4
+        [[menu.nav]]
+            name    = "blog"
+            url     = "blog"
+            weight  = 5
+        [[menu.nav]]
+            name    = "contact"
+            url     = "contact"
+            weight  = 6

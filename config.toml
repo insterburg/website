@@ -1,0 +1,26 @@
+baseURL = "http://www.insterburg.org/"
+languageCode = "de-de"
+title = "Insterburg"
+theme = "navigator-hugo"
+
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "de"
+
+[params]
+    logo = "images/insterburg-logo-small-bg.png"
+    [[Params.listeLangues]]
+    code = "de"
+    [[Params.listeLangues]]
+    code = "en"
+
+[Languages]
+    [Languages.de]
+    title = "Insterburg"
+    logo = "images/insterburg-logo-small-bg.png"
+    languageCode = "de-de"
+    home = "Home"
+    menufixed = false
+    [Languages.de.params.hero]
+        enable  = true
+        heading = "Insterburg"
+        description = "Die Insterburg ist ein selbstverwaltetes Studentenwohnheim in Karlsruhe."

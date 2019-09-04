@@ -6,7 +6,7 @@
   
 [[redirects]]
   from = "/vote/*"
-  to = "https://141.70.44.51/vote/:splat"
+  to = "https://services.insterburg.org/vote/:splat"
   status = 200
   force = true
   [redirects.headers]
@@ -15,7 +15,7 @@
     
 [[redirects]]
   from = "/door/*"
-  to = "https://141.70.44.51/door/:splat"
+  to = "https://services.insterburg.org/door/:splat"
   status = 200
   force = true
   [redirects.headers]
@@ -24,7 +24,7 @@
     
 [[redirects]]
   from = "/elevator/*"
-  to = "https://141.70.44.51/elevator/:splat"
+  to = "https://services.insterburg.org/elevator/:splat"
   status = 200
   force = true
   [redirects.headers]

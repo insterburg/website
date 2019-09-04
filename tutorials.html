@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tutorien - Insterburg</title>
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-select.min.css" rel="stylesheet"> <!-- für schöne drop-down-Liste (Tutoriatsauswahl) -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="container-fluid" id="wrapper">
+	<!-- OVERLAY MENU -->
+	<div id="overlay-menu" class="overlay-menu">
+
+		<a href="#" class="overlay-menu-hide navigation-hide"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+		
+		<div class="overlay-menu-inner">
+			<nav class="overlay-menu-nav">
+				<ul id="nav">
+					<li><a href="index.html">Startseite</a></li>
+					<li><a href="bewerbung.html">Bewerbung</a></li>
+					<li class="active-menu"><a href="tutorials.html">Tutorien</a></li>
+					<li><a href="anfahrt.html">Anfahrt</a></li>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+					<!--<li class="slidedown">
+						<a href="#">Language</a>
+						<ul>
+							<li><a href="#">English</a></li>
+							<li><a href="#">Deutsch</a></li>
+							<li><a href="#">Français</a></li>
+							<li><a href="#">Русский</a></li>
+							<li><a href="#">中文</a></li>
+						</ul>
+					</li>-->
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="overlay-navigation-footer">
+		
+			<div class="container">
+		
+				<div class="row">
+		
+					<div class="col-sm-12 text-center">
+						<p class="copyright font-alt m-b-0">© 2016 insterburg.org, All Rights Reserved.</p>
+					</div>
+		
+				</div>
+		
+			</div>
+		
+		</div>
+
+	</div>
+	<!-- /OVERLAY MENU -->
+	<nav class="navbar navbar-custom navbar-light navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Insterburg</a>
+			</div>
+
+			<!-- ICONS NAVBAR -->
+			<ul id="icons-navbar" class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#" id="toggle-menu" class="show-overlay" title="Menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+				</li>
+			</ul>
+			<!-- /ICONS NAVBAR -->
+
+			<ul class="extra-navbar nav navbar-nav navbar-right">
+				<li><a href="index.html">Startseite</a></li>
+				<li><a href="bewerbung.html">Bewerbung</a></li>
+				<li class="active-menu"><a href="tutorials.html">Tutorien</a></li>
+				<li><a href="anfahrt.html">Anfahrt</a></li>
+				<li><a href="fotos.html">Fotos</a></li>
+				<li><a href="https://my.insterburg.org" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i> Intern</a></li>
+			</ul>
+
+		</div>
+	</nav>
+	<div class="container" id="tutorials">
+		<div class="row">
+			<h1><i class="fa fa-users" aria-hidden="true"></i> Willkommen auf der Seite der Insterburg-Tutorien!</h1>
+			<div class="col-md-12">
+				<h3 class="no-margin-top align-center">Möchtest du einen Tutoriat kontaktieren? Dann Wähle diesen aus der Liste darunter und klicke auf Knopf "Konakt aufnehmen"! </h3>
+				<div class="col-md-12 no-left-right-padding align-center">
+					<select class="selectpicker tutoriat-select" id="tutoriat" data-style="btn-default" data-width="auto">
+						<option value="bar" data-icon="fa-glass">Bar</option>
+						<option value="billiard" data-icon="fa-circle">Billiard und Tischkicker</option>
+						<option value="blumen" data-icon="fa-leaf">Blumen</option>
+						<option value="dach" data-icon="fa-building">Dach</option>
+						<option value="fluegel" data-icon="fa-music">Flügel</option>
+						<option value="foto" data-icon="fa-camera-retro">Foto</option>
+						<option value="gaestezimmer" data-icon="fa-hotel">Gästezimmer</option>
+						<option value="handarbeit" data-icon="fa-scissors">Handarbeit</option>
+						<option value="homepage" data-icon="fa-html5">Homepage</option>
+						<option value="instermat" data-icon="fa-desktop">Instermat</option>
+						<option value="international" data-icon="fa-globe">Internationales Fest</option>
+						<option value="jamsession" data-icon="fa-microphone">Jam Session</option>
+						<option value="konzerte" data-icon="fa-music">Konzerte</option>
+						<option value="lernzimmer" data-icon="fa-leanpub">Lernzimmer</option>
+						<option value="netzwerk" data-icon="fa-linux">Netzwerk</option>
+						<option value="parkplatz" data-icon="fa-car">Parkplatz</option>
+						<option value="proberaum" data-icon="fa-microphone">Proberaum</option>
+						<option value="spiele" data-icon="fa-gamepad">Spiele</option>
+						<option value="sport" data-icon="fa-futbol-o">Sport</option>
+						<option value="technik" data-icon="fa-gears">Technik</option>
+						<option value="werkstatt" data-icon="fa-wrench">Werkstatt</option>
+					</select>
+					<button type="button" class="btn btn-success btn-text-wrap tutoriat-select" id="hideshow">Konakt aufnehmen</button>
+				</div>
+			</div>
+			<div class="col-md-12" id="tutoriat-contact">
+				<form role="form" id="contact-form" class="contact-form">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Your Name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Your E-mail">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Please enter your message here..."></textarea>
+							</div>
+						</div>
+						<div class="col-md-12 btn-group-vertical">
+							<label class="btn btn-default send-me-mail-lable btn-text-wrap" data-toggle="buttons">
+								<input type="checkbox" autocomplete="off" class="send-me-copy-mail">
+								<span class="glyphicon glyphicon-ok"></span> <span>Bitte, schicken Sie mir eine Kopie auf mein E-Mail.</span> </label>
+							<button type="submit" class="btn btn-success btn-text-wrap">Send a message</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div><!-- /.row -->
+	</div><!-- /.contact-container -->
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="bar">
+				<div class="thumbnail">
+					<img src="images/tutorien/bar.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-bar" />
+						<h2><i class="fa fa-glass" aria-hidden="true"></i> Bar</h2>
+						<p class="read-more-wrap">
+							Wir sind das Barteam das Barteam das sind wir! Anerkannter Sammelpunkt für Liebhaber von kalt aufgebrühten Hopfengetränken, Schnaps und schlaflosen Partynächten. Jede Woche organisieren wir für euch Barabende mit Mottos, Musik, äußerst Preiswerten Erfrischungsgetränken jeglicher Art  
+							<span class="read-more-target">
+									  - und natürlich ganz viel Spaß. Wir sind ein großes und aktives Tutoriat, da bei praktisch jeder Veranstaltung  ein Wunsch nach Alkohol besteht. Deshalb freuen wir uns immer über motivierte Neuzugänge, die Bock haben Teil unserer Gruppe zu werden. Du hast Spaß daran in Teams feiern zu organisieren und eigene Barabende zu realisieren? Du fühlst dich generell in Bars gut aufgehoben? Dann komm zu einem unserer Treffen jeden letzten Donnerstag im Monat. Und wenn nicht sehen wir uns auf der anderen Seite der Theke! Wir freuen uns auf euch!
+								</span>
+						</p>
+						 <label for="post-bar" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="billiard">
+				<div class="thumbnail">
+					<img src="images/tutorien/billiard.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-billiard" />
+						<h2><i class="fa fa-circle" aria-hidden="true"></i> Billiard und Tischkicker</h2>
+						<p class="read-more-wrap">
+								Du bist ein Fan von Sportbars mit Billard und Tischkicker? Wenn du in der Insterburg bist, musst du nicht aus dem Haus, um dieses Angebot zu bekommen: gehe einfach ins Erdgeschoss und da findest du unsere Spieltische die du rund um die Uhr Kostenfrei benutzen kannst!
+							<span class="read-more-target">
+									Das Billard-Tutoriat kümmert sich darum, dass verlorene oder kaputte Gegenstände so schnell wie möglich ersetzt werden, und pflegt die beiden Tische, indem sie z.B. den Billardtisch bei Bedarf neu beziehen. Dadurch sind Billard- und Kickertisch immer bereit für die nächste Runde und versüßen dir in Zusammenarbeit mit der Bar unsere Parties! Wenn du Lust hast uns bei unserer Aufgabe zu helfen dann schreib uns an und tritt bei! Dein Billard-Team!
+							</span>
+						</p>
+						 <label for="post-billiard" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="blumen">
+				<div class="thumbnail">
+					<img src="images/tutorien/blumen.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-blumen" />
+						<h2><i class="fa fa-leaf" aria-hidden="true"></i> Blumen</h2>
+						<p class="read-more-wrap">
+							Eine Blume, ein Baum, ein Strauch verleihen einem Ort Charakter. Wenn du Ideen hast, wie man die Interburg bunt gestallten kann, dann bring dich mit deiner Idee ein. Das Blumentutoriat wird dich dabei unterstützen. Ein Kartoffelfeld neben den Fahrradkäfig ist vielleicht etwas zu weit gesponnen, 
+							<span class="read-more-target">
+								aber wie wäre es mit einer Palmenlandschaft auf dem Dach? Alle weiteren Ideen sind erwünscht.<br><br>
+								Vor dem Haus gibt es Töpfe, die wir im Frühjahr mit Blumen und Büschen bepflanzen. Dies erfordert regelmäßiges Gießen, doch das ist ja im nu gemacht. Gegen Winter planen wir Tannen in diese Kübel zu stellen.<br><br>
+								Hast auch du Lust dabei mitzuhelfen? 
+							</span>
+						</p>
+							<!-- TODO<div class="read-more-target"> 
+								<blockquote>
+									<header>Blumenweg</header>
+									<p>
+										Jeder Blumenweg ein Lebensfluss,<br>
+										ein zärtlich Wiegen unter blauer Lust.<br>
+										Jeder Blumenweg ein Liebeskuss,<br>
+										ein buntes Sein im süssen Überfluss.
+									</p>
+									<footer>Monika Minder</footer>
+								</blockquote>
+							</div>-->
+						<label for="post-blumen" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="dach">
+				<div class="thumbnail">
+					<img src="images/tutorien/dach.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-dach" />
+						<h2><i class="fa fa-building" aria-hidden="true"></i> Dach</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+						<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+						</span>
+						</p>
+						<label for="post-dach" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="fluegel">
+				<div class="thumbnail">
+					<img src="images/tutorien/fluegel.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-fluegel" />
+						<h2><i class="fa fa-music" aria-hidden="true"></i> Flügel</h2>
+						<p class="read-more-wrap">
+							Das Flügeltutoriat wurde ursprünglich als Rettungstutoriat gegründet und hat sich dafür eingesetzt, den maroden Flügel zu sanieren. Da dieses Ziel erreicht wurde, besteht das Ziel nun darin den nun guten Zustand des Flügels zu erhalten, damit er spielbar bleibt. Entscheidend dafür ist einerseits das Spielen des Instruments und andererseits die Temperatur und Luftfeuchtigkeit des Raumes. 
+							<span class="read-more-target">
+								Bei einem Instrument das nicht benutzt wird, verschlechtert sich der Zustand (beispielsweise der Saiten oder der Mechanik) mit der Zeit. Deshalb ist es wünschenswert, dass auf dem Flügel auch musiziert wird. Ebenso wäre es schädlich für den hölzernen Resonanzboden wenn der Flügel im Keller steht, wo es manchmal modrig und feucht ist. Andererseits ist ein Raum in dem im Winter so viel geheizt wird, dass die Luft sehr trocken ist auch ungeeignet, da sich hierbei Risse im Resonanzkörper bilden können. Der aktuelle Standort im vorderen Teil des Barvorraums ist daher recht gut geeignet und sollte ohne weiteres auch nicht verändert werden. Eine Abdeckung schützt den Lack vor Verkratzen oder diversen anderen Einflüssen, die sich während eines Barabends ereignen könnten. Diese ist mit einem Drahtseil und einem Schloss gesichert. Grundsätzlich ist auch darauf zu achten, dass keine (schweren) Gegenstände auf dem Flügel abgestellt werden. Darauf weist auch ein Schild an der Wand hin. Der Tastendeckel ist mit einem Bügelschloss versehen, sodass nicht einfach von irgendwelchen Leuten gespielt werden kann. Die beiden Schlüssel können über den Instermat im Lernzimmer ausgeliehen werden. 
+								<br><br>
+								<strong>Aufgaben des Tutoriats:</strong>
+								Grundsätzlichen daraufachten, dass die Bewohnern und Gästen des Wohnheims sorgsam mit dem Flügel umgehen. Dass heißt, ab und zu schauen, ob der Flügel auch richtig, oder überhaupt abgeschlossen ist, wenn er nicht benutzt wird, oder beim Bararbend sicherstellen, dass die Abdeckung drauf liegt und die Leute sich nicht drauf setzen oder Sachen darauf abstellen. 
+								<br>
+								Das einzige was jedoch tatsächlich regelmäßig gemacht werden muss, ist das Stimmen, was normalerweise einmal pro Jahr vorgenommen wird (am besten in den Wärmeren Monaten). Der Klavierstimmer, den wir seit längerem immer wieder dafür einstellen ist Gunther Knorre (seine Karte liegt im Flügel unter dem Vordeckel). Dabei übernimmt das Haus die Kosten von etwa 80-100€. Bei der HVV muss das Haus zustimmen, dass ein gewisses Budget dafür bereit steht. 
+								<br><br>
+								Separieren zwischen Tutoren und Tutorenhelfern: 
+								Gibt es nicht
+							</span>
+						</p>
+						<label for="post-fluegel" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="foto">
+				<div class="thumbnail">
+					<img src="images/tutorien/foto.jpg" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-foto" />
+						<h2><i class="fa fa-camera-retro" aria-hidden="true"></i> Foto</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-foto" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="gaestezimmer">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-gaestezimmer" />
+						<h2><i class="fa fa-hotel" aria-hidden="true"></i> Gästezimmer</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-gaestezimmer" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="handarbeit">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-handarbeit" />
+						<h2><i class="fa fa-scissors" aria-hidden="true"></i> Handarbeit</h2>
+						<p class="read-more-wrap">
+							Wir, das Handarbeitstutoriat, laden alle ein, die gemeinsam stricken, nähen oder häkeln wollen oder es lernen möchten. Wir organisieren von Zeit zu Zeit Insteromiabende bei denen wir zusammensitzen, Kaffee trinken und Kuchen essen und natürlich handarbeiten. Es sind aber auch alle eingeladen, die einfach einen gemütlichen Abend verbringen wollen.
+							<span class="read-more-target">
+								Wir suchen jedes Semester Tutoren, die mit der Organisation helfen oder auch einmal selbst einen Insteromiabend organisieren. Wenn du dich also angesprochen fühlst dann komm einfach mal vorbei.
+							</span>
+						</p>
+						<label for="post-handarbeit" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="homepage">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-homepage" />
+						<h2><i class="fa fa-html5" aria-hidden="true"></i> Homepage</h2>
+						<p class="read-more-wrap">
+							Kennst du dich mit HTML5, CSS3 oder JS aus? Kannst du cooles Content für die Webseiten ausdenken? 
+							Magst du dich mit dem Layout der Webpage auseinandersetzen und rumspielen? Vielleicht möchtest du
+							usere Backend-Entwicklung verstärken? Kennst du dich mit Marketinggrundlagen aus und möchtest uns 
+							ein paar tolle Tipps geben oder uns langfristig beraten? Bist du ein kreatives Person, welche 
+							einen guten Designgeschmack hat? 
+							<span class="read-more-target">
+								Wenn du auf eine von den Fragen mit "Ja" geantwortet hast, dann kannst du 
+								zu unserem Tutoriat beitreten. Wir suchen immer nach Menschen, die ihre neue und wertvolle Ideen 
+								ins Realität bringen und durchsetzen. <br>
+								Als ein Homepagetutor solltest du eine der folgenden Aufgaben erledigen:
+							</span></p>
+							<ul class="read-more-target">
+								<li>den Content unserer Homepage ständig aktuell halten;</li>
+								<li>die Übersetzungen unserer Seite aktuell halten und koordinieren können;</li>
+								<li>der Design der Homepage pflegen und verbessern;</li>
+								<li>die Frontend-Seite (also HTML, CSS und JS) mit neuen Feautures bereichern.</li>
+							</ul>
+							<p><span class="read-more-target">
+								Für die Entwicklung und Management verwenden wir <a class="outer-href" href="https://kanbanflow.com">Kanbanflow</a> und <a class="outer-href" href="https://github.com/">Github</a>. 
+								Alle andere Tools und IDE's kann jeder für sich selbst bestimmen.
+							</span>
+						</p>
+						<label for="post-homepage" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="instermat">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-instermat" />
+						<h2><i class="fa fa-desktop" aria-hidden="true"></i> Instermat</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-instermat" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="internationales-fest">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-internationales" />
+						<h2><i class="fa fa-globe" aria-hidden="true"></i> Inter&shy;national&shy;es Fest</h2>
+						<p class="read-more-wrap">
+							Viele Kulturen haben viele leckere Spezialitäten, interessante Sitten oder gute Musik aber nur in einem Wohnheim wohnen viele Kulturen, die das alles auf einmal zeigen könnten. Ca. 50&#37; von allen Bewohnern sind internationale Studenten. Deswegen haben wir uns gedacht, ein internationales Fest zu organisieren. 
+							<span class="read-more-target">
+								Wir möchten euch einmal pro Jahr im Barvorraum an einem Samstagabend zeigen, was alles Insterburg versteckt. Tanzen, Singen, internationale kulinarische Spezialitäten, buntes Programm verschiedene Getränke aus aller Welt, das alles gehört zu dem Abend.
+								<br><br>
+								Wir suchen Tutoren, die gerne mitmachen und ein paar neue Idee bringen möchten. Kannst du singen, tanzen oder kennst du jemanden, der das kann? Denkst du, du kannst gar nicht? Egal, wir werden uns über deine Unterstützung freuen.
+							</span>
+						</p>
+						<label for="post-internationales" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="jam-session">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-jam" />
+						<h2><i class="fa fa-microphone" aria-hidden="true"></i> Jam Session</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-jam" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="konzerte">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-konzerte" />
+						<h2><i class="fa fa-music" aria-hidden="true"></i> Konzerte</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-konzerte" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="lernzimmer">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-lernzimmer" />
+						<h2><i class="fa fa-leanpub" aria-hidden="true"></i> Lernzimmer</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-lernzimmer" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="netzwerk">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-netzwerk" />
+						<h2><i class="fa fa-linux" aria-hidden="true"></i> Netzwerk</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-netzwerk" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="parkplatz">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-parkplatz" />
+						<h2><i class="fa fa-car" aria-hidden="true"></i> Parkplatz</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-parkplatz" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="proberaum">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-proberaum" />
+						<h2><i class="fa fa-microphone" aria-hidden="true"></i> Proberaum</h2>
+						<p class="read-more-wrap"> 
+							In Insterburg gibt es eine Proberaum, wo man gut musizieren kann. Diese befindet sich im Keller, neben Fahrradstelle.
+							Im Proberaum gibt es folgende Musikinstrumente: Schlagzeug, Synthesizer, ... Außerdem gibt es dort die "Boxen", zu welchen man 
+							die Elektrogitarre anschließen kann. 
+							<span class="read-more-target">
+								Die Proberaum ist gut isoliert, dennoch ist den Besuchern folgende Regeln zu beachten:
+							</span>
+						</p>
+							<ul>
+								<li>keine laute Musik nach 22:00;</li>
+								<li>Fenster beim Spielen immer zumachen und danach wieder aufmachen, vor allem wenn drin geraucht wurde;</li>
+								<li>Alles was man mitbringt wieder wegräumen (Geschirr, Essen, Flaschen, Müll, Zigaretten usw.);</li>
+								<li>den ausgeliehenen Schlüssel sofort zurück zum Instermat bringen;</li>
+								<li>den Licht ausschalten.</li>
+							</ul>
+							<p><span class="read-more-target">
+								Also Ziel des Tutoriates besteht darin, die Proberaum in Ordnung zu halten. Das heißt nicht, dass wir aufräumen sollen,
+								sondern dass wir aufpassen, dass es von Besuchern aufgeräumt wird. Außerdem, falls es um Renovierung oder Upgrading der
+								Proberaum geht, sind auch wir dazu zuständig (aber alle anderen können uns gerne helfen!).
+							</span>
+						</p>
+						<label for="post-proberaum" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="spiele">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-spiele" />
+						<h2><i class="fa fa-gamepad" aria-hidden="true"></i> Spiele</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-spiele" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 tutoriat-about" id="sport">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-sport" />
+						<h2><i class="fa fa-futbol-o" aria-hidden="true"></i> Sport</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-sport" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="technik">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-technik" />
+						<h2><i class="fa fa-gears" aria-hidden="true"></i> Technik</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-technik" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 tutoriat-about" id="werkstatt">
+				<div class="thumbnail">
+					<img src="http://placehold.it/500x300" alt="">
+					<div class="caption">
+						<input type="checkbox" class="read-more-state" id="post-werkstatt" />
+						<h2><i class="fa fa-wrench" aria-hidden="true"></i> Werkstatt</h2>
+						<p class="read-more-wrap">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, itaque, possimus sed id veniam sequi amet molestias laudantium quasi molestiae in dolore culpa fugit placeat vel nobis natus modi quas tempore officiis at quam delectus pariatur blanditiis cum perspiciatis dicta repellendus velit perferendis ipsum nisi enim et dolores?
+							<span class="read-more-target">
+								Officia, sapiente commodi quas fuga incidunt laborum fugiat dolorem. Tempora, consectetur, debitis vitae provident rerum exercitationem voluptates inventore minima iste repellendus. Atque, maiores, neque, ipsam sapiente laboriosam enim iste dolorum officiis velit id fugit eligendi temporibus consequuntur? Ullam facilis esse autem amet alias. Esse facilis perspiciatis sint natus ipsa minus veniam vero. 
+							</span>
+						</p>
+						<label for="post-werkstatt" class="read-more-trigger"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-3">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="index.html">Startseite</a></li>
+						<li><a href="bewerbung.html">Bewerbung</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="haussprecher.html">Haussprecher</a></li>
+						<li><a href="tutorials.html">Tutorien</a></li>	
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="anfahrt.html">Anfahrt</a></li>
+						<li><a href="#">Placeholder</a></li>							
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="#">Placeholder</a></li>
+						<li><a href="feedback.html">Feedback</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="impressum.html">Impressum</a></li>
+					<li><i class="fa fa-copyright" aria-hidden="true"></i> 2016 insterburg.org</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<!-- SCROLLTOP -->
+	<div class="scroll-up">
+		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+	<script src="js/jquery-2.1.3.min.js"></script> 
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/bootstrap.js"></script> 
+	<script src="js/bootstrap-select.js"></script> 
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

@@ -44,6 +44,7 @@ tr th, tr td {
 	text-align: center;
 }
 .table-responsive {
+	background-color: white;
 	padding: 0;
 	border: 0;
 }
@@ -153,7 +154,9 @@ blockquote p {
 }
 
 
-
+.caption {
+	min-height: 250px;
+}
 .carousel-inner {
     min-height: 300px;
 }
@@ -161,6 +164,9 @@ blockquote p {
     border-left: none;
     margin: 0;
 }
+
+
+
 .item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
@@ -193,9 +199,15 @@ blockquote p {
 	margin-bottom: 20px;
 	border: 1px solid;
 }
-	
+
 .tutoriat-about .thumbnail img {
 	width: 100%;
+}
+
+.crop{
+	width: 100%;
+ height: 250px;
+ overflow: hidden;
 }
 /********* Read More Button ***********/
 .read-more-state {
@@ -272,24 +284,24 @@ blockquote p {
 	border-color: #222;
 }
 .btn-glyphicon {
-	padding:8px 0px 8px 8px; 
-	margin-right:4px; 
+	padding:8px 0px 8px 8px;
+	margin-right:4px;
 }
-.icon-btn { 
-	padding: 1px 15px 3px 2px; 
+.icon-btn {
+	padding: 1px 15px 3px 2px;
 	border-radius:50px;
 }
 .panel {
 	border: none;
 }
 p a.btn {
-	text-decoration: none;	
+	text-decoration: none;
 }
 /****** Anfahrt ******/
 #anfahrt h4{
 	padding: 20px 0;
 	line-height: normal;
-	background-color: #eee;
+	background-color: #ccf5e5;
 	text-align: center;
 }
 #anfahrt h1 {
@@ -309,7 +321,7 @@ p a.btn {
 p.postweg {
 	background: #eee;
 }
-.flexible-container iframe,	
+.flexible-container iframe,
 .flexible-container object,
 .flexible-container embed {
 	position: absolute;
@@ -373,25 +385,26 @@ p.postweg {
 
 #highlights {
 	background-color: #287a5b;
-	padding-top: 80px; 
+	padding-top: 80px;
 	padding-bottom: 80px;
 	color: aliceblue;
 }
 
 #apartments-and-prices {
-	background-color: white;
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
-#vertragsfristen {
 	background-color: #ccf5e5;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
 
+#vertragsfristen {
+	background-color: #287a5b;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: aliceblue;
+}
+
 #besonderheiten {
-	background-color: white;
+	background-color: #ccf5e5;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -631,18 +644,18 @@ Navigation
 	background: #62C2E4;
 }
 
-.nav-tabs > li > a::after { 
-	content: "";  
-	height: 3px; 
-	position: absolute; 
-	width: 100%; 
-	left: 0px; 
-	bottom: -1px; 
-	transition: all 250ms ease 0s; 
-	transform: scale(0); 
+.nav-tabs > li > a::after {
+	content: "";
+	height: 3px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: -1px;
+	transition: all 250ms ease 0s;
+	transform: scale(0);
 }
-.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { 
-	transform: scale(1.0); 
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+	transform: scale(1.0);
 }
 
 .nav-tabs > li > a, .nav-tabs > li.active > a {
@@ -781,7 +794,8 @@ Hero
 }
 
 .hero-text .background-special {
-	background: rgba(180, 255, 226, 0.418);
+
+	background: rgba(40,122,91, 0.6);
 }
 
 .hero-text .background-special a img {
@@ -1112,7 +1126,6 @@ Responsive Media Querries
 		font-size: 12px;
 	}
 
-	
-	
-}
 
+
+}

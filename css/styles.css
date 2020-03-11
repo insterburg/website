@@ -177,6 +177,11 @@ blockquote p {
 #tutorials {
 	padding: 80px 0 20px 0;
 }
+
+.row{
+	margin: 20px;
+}
+
 .tutoriat-select, .bootstrap-select.btn-group:not(.input-groupt-btn) {
 	margin: 0px 10px 20px 0px;
 }
@@ -1059,6 +1064,11 @@ Responsive Media Querries
 		top: 0;
 		width: 100%;
 	}
+
+	/* carousel */
+	#quote-carousel {
+		padding: 0 10px 150px 10px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1093,7 +1103,7 @@ Responsive Media Querries
 
 	/* carousel */
 	#quote-carousel {
-		padding: 0 10px 120px 10px;
+		padding: 0 10px 200px 10px;
 	}
 
 

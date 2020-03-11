@@ -179,7 +179,7 @@ blockquote p {
 }
 
 .rowBewerbung{
-	margin: 20px;
+	margin: 30px;
 }
 
 .tutoriat-select, .bootstrap-select.btn-group:not(.input-groupt-btn) {
@@ -1136,6 +1136,9 @@ Responsive Media Querries
 		font-size: 12px;
 	}
 
-
+	/* carousel */
+	#quote-carousel {
+		padding: 0 10px 200px 10px;
+	}
 
 }

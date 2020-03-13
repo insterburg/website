@@ -96,7 +96,7 @@ Container with fotos
 	opacity: 1;
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 700px){
     .column {
       float: left;
       width: 50%;

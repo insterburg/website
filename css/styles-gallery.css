@@ -30,7 +30,9 @@ Container with fotos
 	top: 40%;
 	width: auto;
 	padding: 16px;
-	margin-top: -50px;
+  margin-top: -50px;
+  background-color: black;
+  opacity: 0.4;
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
@@ -48,12 +50,15 @@ Container with fotos
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: red;
   }
   
   /* Number text (1/3 etc) */
   .numbertext {
-	color: #f2f2f2;
+  color: #f2f2f2;
+  background-color: black;
+  opacity: 0.4;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
@@ -73,11 +78,12 @@ Container with fotos
 	display: table;
 	clear: both;
   }
+
   
-  /* Six columns side by side */
+  /* Columns side by side */
   .column {
 	float: left;
-	width: 15%;
+  width: 14,5%;
   }
   
   /* Add a transparency effect for thumnbail images */
@@ -89,4 +95,5 @@ Container with fotos
   .demo:hover {
 	opacity: 1;
   }
+
   

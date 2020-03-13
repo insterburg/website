@@ -99,12 +99,20 @@ Container with fotos
   @media (max-width: 992px){
     .column {
       float: left;
-      width: 50%;
+      width: 30%;
       }
 
       .prev,
       .next {
-      top: 20%;
+      top: 15%;
       }
 
     }
+
+    @media (max-width: 500px){
+      .column {
+        float: left;
+        width: 50%;
+        }
+  
+      }

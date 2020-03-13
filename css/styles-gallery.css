@@ -101,6 +101,11 @@ Container with fotos
       float: left;
       width: 50%;
       }
+
+    .demo{
+      width: 80;
+      height: 50;
+    }
   }
 
   

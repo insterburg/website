@@ -6,27 +6,18 @@
   
 [[redirects]]
   from = "/vote/*"
-  to = "https://services.insterburg.org/vote/:splat"
-  status = 200
+  to = "https://services.insterburg.org/vote"
+  status = 302
   force = true
-  [redirects.headers]
-    X-From = "source_key"
-    X-Api-Key = "3echjj4rRTpYXrN4ZyaN8V6kF"
     
 [[redirects]]
   from = "/door/*"
-  to = "https://services.insterburg.org/door/:splat"
-  status = 200
+  to = "https://services.insterburg.org/door"
+  status = 302
   force = true
-  [redirects.headers]
-    X-From = "source_key"
-    X-Api-Key = "3echjj4rRTpYXrN4ZyaN8V6kF"
     
 [[redirects]]
   from = "/elevator/*"
-  to = "https://services.insterburg.org/elevator/:splat"
-  status = 200
+  to = "https://services.insterburg.org/elevator"
+  status = 302
   force = true
-  [redirects.headers]
-    X-From = "source_key"
-    X-Api-Key = "3echjj4rRTpYXrN4ZyaN8V6kF"

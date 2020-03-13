@@ -96,4 +96,11 @@ Container with fotos
 	opacity: 1;
   }
 
+  @media (max-width: 500px){
+    .column {
+      float: left;
+      width: 18%;
+      }
+  }
+
   

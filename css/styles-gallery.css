@@ -99,15 +99,37 @@ Container with fotos
   @media (max-width: 992px){
     .column {
       float: left;
-      width: 30%;
+      width: 25%;
       }
+
+      .prev,
+      .next {
+      top: 20%;}
+      
+
+    }
+
+
+    @media (max-width: 767px){
+      .column {
+        float: left;
+        width: 30%;
+        }
 
       .prev,
       .next {
       top: 15%;
       }
+  
+      }
 
-    }
+      @media (max-width: 600px){
+        .column {
+          float: left;
+          width: 40%;
+          }
+    
+        }
 
     @media (max-width: 500px){
       .column {

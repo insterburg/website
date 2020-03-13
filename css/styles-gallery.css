@@ -99,7 +99,7 @@ Container with fotos
   @media (max-width: 500px){
     .column {
       float: left;
-      width: 18%;
+      width: 50%;
       }
   }
 

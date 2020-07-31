@@ -1026,7 +1026,19 @@ Reset bootstrap navigation styles for small screens
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
-@media (max-width: 992px) {
+@media (max-width: 996px) {
+	.navbar-custom {
+		padding-top: 0px;
+		padding-bottom: 0px; 
+	}
+	.navbar-custom .navbar-brand {
+		font-size: 0px;
+	}
+	.navbar-right + .extra-navbar {
+		margin: 0 0 0 0;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
 	/* Hero captions */
 	.mh-line-size-1 {
 		letter-spacing: 10px;
@@ -1045,9 +1057,11 @@ Responsive Media Querries
 		font-size: 16px;
 	}
 
+
 }
 
 @media only screen and (max-width: 960px) {
+
 	/* Side and overlay nav */
 	.overlay-menu.active {
 		position: absolute;
@@ -1072,6 +1086,9 @@ Responsive Media Querries
 }
 
 @media (max-width: 767px) {
+	.navbar-custom .navbar-brand {
+		font-size: 20px;
+	}
 	/* Hero captions */
 	.mh-line-size-1 {
 		letter-spacing: 6px;

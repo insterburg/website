@@ -14,6 +14,7 @@
 			windowWidth     = Math.max($(window).width(), window.innerWidth),
 			navbatTrans,
 			mobileTest;
+			
 
 		navbarCheck(navbar);
 

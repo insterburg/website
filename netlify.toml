@@ -3,21 +3,9 @@
   to = "https://my.insterburg.org/rental-status"
   status = 302
   force = true
-  
-[[redirects]]
-  from = "/vote/*"
-  to = "https://services.insterburg.org/vote"
-  status = 302
-  force = true
-    
+
 [[redirects]]
   from = "/door/*"
-  to = "https://services.insterburg.org/door"
-  status = 302
-  force = true
-    
-[[redirects]]
-  from = "/elevator/*"
-  to = "https://services.insterburg.org/elevator"
+  to = "https://my.insterburg.org/door-opener"
   status = 302
   force = true

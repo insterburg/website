@@ -57,6 +57,5 @@ Von der Startseite kannst du dich zu den anderen Seiten navigieren, die ensprech
 Falls die Befehl nicht funktioniert, es kann sein, dass du deine Gitlab-Credentials in Terminal angeben musst. Über diese Fehlermeldung kannst du hier lesen https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration .  
 
 
-### Executing program
 
 

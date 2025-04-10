@@ -32,6 +32,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build static HTML
         run: python ./bake.py
+      - name: Copy Assets
+        run: cp -r  css fonts images js stuff ./_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

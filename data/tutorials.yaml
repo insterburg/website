@@ -1,0 +1,268 @@
+tutorials_title:
+  de: Tutoriate
+  en: Tutoriates
+
+tutorials_intro_1:
+  de: >
+    Die Insterburg hat viele Angebote, die über einfach nur Wohnen hinaus
+    gehen, wie zum Beispiel unsere Bar, Werkstatt, Proberaum und vieles mehr.
+    Um diese Angebote zu Pflegen, zu Erhalten und zu Verwalten, gibt es
+    meist ein dediziertes Tutoriat.
+  en:
+    The Insterburg can offer many things, that go beyond just living here.
+    For example, we have a bar, a workshop, a band practice room and much more.
+    In order to preserve, maintain and administer these offerings, there
+    usually exists a dedicated Tutoriate.
+
+tutorials_intro_2:
+  de: >
+    Ein Tutoriat ist erstmal eine Gruppe von Bewohnis, die Lust haben sich mit
+    dem jeweiligen Etwas zu beschäftigen.
+    Die Mitglieder eines Tutoriates treffen sich dann in regelmäßigen Abständen
+    um Aktionen und Anschaffungen zu besprechen.
+    Jedes Tutoriat hat außerdem ein bestimmtes Budget, welches ihnen pro
+    Semester zu Verfügung steht.
+  en: >
+    First of all, a tutoriate is a group of inhabitants, who are motivated to
+    engage with the respective thing.
+    The members of a tutorial gather in regular intervals to plan activities
+    and discuss purchases.
+    Further, every tutorial has a specific budget, which they can spend over
+    the course of the semester.
+
+tutorials_our_tuts_title:
+  de: Unsere Tutoriate
+  en: Our Tutoriates
+
+tutorials_hide_info:
+  de: zurück
+  en: back
+
+
+tutorials_tutorials:
+  - name: workshop
+    display:
+      de: Werkstatt
+      en: Workshop
+    icon: wrench
+    description:
+      de: >
+        Das Werkstatt Tutoriat betreut unsere Werkstatt. Die Tutoren helfen
+        Bewohnern, die Hilfe mit Projekten oder Werkzeugen brauchen und sind
+        immer für Fragen offen.
+        Wir sind ausgerüstet mit Standardgeräten wie einer Bohrmaschine,
+        Akkuschrauber, Flex, Stichsäge und diverse Zangen, Feilen und Handsägen.
+        Außerdem befinden sich eine Standbohrmaschine,
+        Tischkreissäge und Schweißgerät in der Werkstatt.
+        <br>
+        Da viele Bewohner Fahrrad fahren, sind wir speziell für Fahrradreparaturen 
+        auch besten ausgerüstet.
+      en: >
+        The workshop tutoriate oversees the workshop. The tutors help other
+        inhabitants, if they need help with their project or with tools and 
+        are always there for questions.
+        We are equipped with standard tools such as a drill, cordless 
+        screwdriver, angle grinder, jigsaw and various pliers, files and 
+        handsaws.
+        Further we have a drill press, a table saw and welding equipment.
+        <br>
+        Since many inhabitants get around by bike, we are also specifically
+        equipped for bike repairs.
+    pictures:
+      - workshop.jpeg
+  - name: jam
+    display:
+      de: Proberaum
+      en: Music Room
+    icon: music
+    description:
+      de: >
+        Wir kümmern uns um die faire Nutzung, Pflege und Weiterentwicklung des 
+        Musikraums, sowie der diversen zugehörigen Instrumente und Technik. 
+        Außer der regelmäßigen Proben von mehreren Musizierenden und Bands, 
+        treffen wir uns auch mal für gemütliche Jam-sessions.
+      en: >
+        We take care of the maintenance and further development of the music 
+        room and the instruments and tec in it. Apart from the regular 
+        practice of different bands and musicians, we also love to meet for 
+        some relaxed jam sessions.
+    pictures:
+      - roof.jpg
+  - name: bar
+    display:
+      de: Bar
+      en: Bar
+    icon: glass
+    description:
+      de: >
+        Meistens ist freitags eine kleine gemütliche Party in unserer Bar,
+        bei denen sich Bewohnis unterhalten, tanzen und trinken.
+        Hier wird auch viel Tischtennis, Billiard und Tischkicker gespielt.
+        Ab und an gibt es dann auch größere Parties mit mehr Menschen, 
+        manchmal mit Livemusik oder verschiedenen Themen.
+        <br>
+        Damit das alles rund läuft gibt es das Bartutoriat.
+        Wir organisieren die Parties und stehen natürlich auch hinter der Bar.
+      en: >
+        Most Fridays, there is a small relaxed party in our bar, where
+        inhabitants meet to talk, dance and drink.
+        Here, we also play a lot of table tennis, billiard and tabletop soccer.
+        Every now and then, there are also bigger parties with more people,
+        sometimes with live music or a specific theme.
+        <br>
+        So that all of that runs smoothly, there is the bar tutoriate.
+        We organize all the parties and of course also serve behind the bar.
+    pictures:
+      - bar.jpg
+  - name: environment
+    display:
+      de: Umwelt
+      en: Environment
+    icon: envira
+    description:
+      de: >
+        Wir organisieren Workshops zu DIY und Recycling und veranstalten manchmal
+        Müllsammelaktionen um die Insterburg.
+      en: >
+        We organize workshops around DIY and recycling and host trash collection 
+        events around Insterburg.
+    pictures:
+      - trash-collection.jpeg
+  - name: network
+    display:
+      de: Netzwerk
+      en: Network
+    icon: code-fork
+    description:
+      de: >
+        Das Netzwerktutoriat erhält unsere lokale digitale Infrastruktur.
+        Das beinhaltet einerseits die Router und Switches, die den
+        Internetanschluss für die Bewohner bereitstellen.
+        Andererseits kümmern wir und auch um diese Website und unsere
+        interne Website, die auch für die Verwaltung der Mietverträge und vieles
+        mehr genutzt wird.
+        <br>
+        Das Netzwerktutoriat bietet auch die perfekte Gelegenheit ein bisschen
+        Praxiserfahrung zu sammeln für unsere Informatikstudis
+      en: >
+        The network tutoriate maintains our local digital infrastructure.
+        On the one hand, this includes the routers and switches responsible
+        for supplying an internet connection for the inhabitants.
+        On the other hand, we also take care of this website and our internal
+        website, which is also used to administer the rental contracts and 
+        much more.
+        <br>
+        The network tutoriate offers the perfect opportunity to gather some
+        hands-on experience for our computer scientists.
+    pictures:
+      - instermat.jpg
+  - name: garden
+    display:
+      de: Garten
+      en: Garden
+    icon: pagelines
+    description:
+      de: >
+        Wir pflegen und bauen Grünes um die Interburg an. Mit viel Spaß sorgen 
+        wir sowohl für eine schöne Umgebung als auch Essbares :)
+      en: >
+        We nurse and cultivate Plants around Insterburg.
+        This does not only result in beautiful surroundings but also sometimes
+        in comestibles.
+    pictures:
+      - planting.jpeg
+      - planting_wide.jpeg
+
+tutorials_further_offers_title:
+  de: Weitere Angebote
+  en: Furthers Offers
+    
+tutorials_further_offers_intro:
+  de: >
+    Es gibt noch diverse andere Tutoriate welche sich um diversen anderen Kram 
+    für die Hausgemeinschaft kümmern (z.B. DIY-Events,  zusammen Sport machen,
+    Jam-Sessions, 3D Druck, Filmabende und vieles mehr)
+  en: >
+    There are tons of other groups doing diverse stuff for the house community 
+    (e.g. DIY-events, do sports together, jamming-sessions, 3D-printer 
+    development, cinema-sessions, etc.)
+
+tutorials_further_offers:
+  - filename: 3d-printer.jpeg
+    description: 
+      de: >
+        Für die Tüftler und Bastler unter den Bewohnern, haben wir einen
+        3D Drucker mit Enclosure und OctoPrint.
+      en: >
+        For the tinkerers and handiman among the inhabitants, we have a
+        3D printer with enclosure and OctoPrint.
+  - filename: vending-machine.jpeg
+    description: 
+      de: >
+        Um auch währrend der Klausurenphase alle mit Mate und Spezi versorgen
+        zu können, haben wir unseren eigenen Getränkeautomaten.
+        Auch wenn er schon etwas älter ist, erfreut er sich bester Gesundheit
+        und wird regelmäßig genutzt.
+      en: >
+        To supply everyone with enough Mate and caffeinated drinks during
+        exam phase, we have our own vending machine.
+        Even though its already a bit older, it enjoys the best of health
+        and is in regular use.
+  - filename: bjj.jpeg
+    description:
+      de: >
+        Für alle Kampfsportbegeisterten haben wir einen Boxsack und Matten,
+        die sich auch super für Yoga eignen.
+      en: >
+        For all combat sports enthusiats, we have a heavy bag and mats, which
+        are also very useful for yoga.
+  - filename: projector.jpeg
+    description:
+      de: >
+        Mit Beamer, Leinwand und gutem Soundsystem sind wir auch super für
+        Filmabende ausgestattet.
+      en: >
+        With a projector, screen and good sound system we are perfectly 
+        equipped for movie nights.
+  - filename: guestroom.jpeg
+    description:
+      de: >
+        Wir haben ein Gästezimmer mit zwei Betten, das alle Bewohner kostenlos
+        reservieren und nutzen können.
+      en: >
+        We have a guest room with two beds, which all inhabitant can reserve
+        and use for free.
+  - filename: studyroom.jpeg
+    description:
+      de: >
+        Falls du dich in deinem Zimmer beim Arbeiten nicht konzentrieren
+        kannst, haben wir auch ein Lernzimmer.
+      en: >
+        If you can't focus when working in your room, we also have a study
+        room.
+  - filename: grand-piano.jpeg
+    description:
+      de: Wir haben einen Flügel!
+      en: We have a grand piano!
+  - filename: board-games.jpeg
+    description:
+      de: >
+        Obwohl viele Flure auch ihre eigene Sammlung haben, hat das Haus 
+        auch eine akzeptables Repertoire an Brettspielen.
+      en: >
+        Even though most floors have their own collection, the house also
+        has a respectable repertoire of board games.
+  - filename: training-room.jpeg
+    description:
+      de: >
+        In unserem Schwesternwohnheim, dem 200 Meter entfernten HFK, gibt einen
+        Kraftraum, der mit Gewichten und diversen Geräten ausgestattet ist.
+      en: >
+        Only 200 meters away from Insterburg in our sister dormitory HFK, there
+        is a training room, with weights and equipment.
+  - filename: pizza-oven.jpeg
+    description:
+      de: Im Garten haben wir einen Pizzaofen für dilikate Sommerabende.
+      en: In our garden, we have a pizza oven for delicious sommer evenings.
+        
+

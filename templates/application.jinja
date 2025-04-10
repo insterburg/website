@@ -1,0 +1,64 @@
+{% extends "_main.jinja" %}
+
+{% block content %}
+<div class="container-fluid" id="wrapper">
+  <div class='container' id='application'>
+    <div class="row">
+      <h1>
+        <i class="fa fa-address-book-o" aria-hidden='true'></i>
+        <nbsp>
+        {{ APPLICATION_TITLE }}
+      </h1>
+    </div>
+
+    <div class="row">
+      <section class='col-md-12'>
+        <h2 class="subpage-h2">{{ HOWTO_TITLE }}</h2>
+        <p class="p-130-justify">{{ HOWTO_BODY_1 }}
+          <a class="btn icon-btn btn-info btn-text-wrap" 
+            href="/stuff/application-form.pdf" target="_blank">
+            <i class="fa fa-download btn-glyphicon" aria-hidden="true"></i>
+            <nbsp>
+            {{ DOWNLOAD_FORM }}
+          </a>
+        </p>
+        <p class="p-130-justify">{{ HOWTO_BODY_2 }}
+        <p class="p-130-justify text-info">{{ APPLY_EARLY }}</p>
+        <p class="p-130-justify">{{ FURTHER_DOCS }}</p>
+        <ul class="p-130-justify">
+          <li>{{ CIRICULUM }}</li>
+          <li>{{ PICTURES }}</li>
+          <li>{{ MATRICULATION }}</li>
+        </ul>
+        <p class="p-130-justify">{{ SEND_TO | safe }}</p>
+          <p>
+            <strong>
+            <a href="mailto:{{ EMAIL_WOHNEN }}">
+              {{ EMAIL_WOHNEN }}
+            </a>
+            </strong>
+          </p>
+        <br>
+        <p class="p-130-justify">{{ DISCLAIMER_INCOMPLETE | safe }}</p>
+        <br>
+        {{ DISCLAIMER_ANSWER }}
+      </section>
+    </div>
+
+    <div class="row">
+      <section class='col-md-12'>
+        <h2 class="subpage-h2">{{ PROCESS }}</h2>
+        <p class="p-130-justify">{{ PROCESS_BODY | safe }}</p>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class='col-md-12'>
+        <h2 class="subpage-h2">{{ EXCHANGE_STUDENTS }}</h2>
+        <p class="p-130-justify">{{ EXCHANGE_STUDENTS_TEXT | safe }}</p>
+      </section>
+    </div>
+
+  </div>
+</div>
+{% endblock content %}

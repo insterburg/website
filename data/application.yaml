@@ -1,0 +1,114 @@
+application_title:
+  de: Bewerbung
+  en: Application
+
+howto_title:
+  de: Wie bewerbe ich mich?
+  en: How do I apply?
+
+howto_body_1:
+  de: "Nutze für die Bewerbung bitte das folgende Bewerbungsformular:"
+  en: "Please use the following application form to apply:"
+
+download_form:
+  de: Bewerbungsformular herunterladen
+  en: Download application form
+
+howto_body_2:
+  de: >
+    Die Bewerbung sollte sich an die Haussprechis und deine zukünftigen 
+    Flurmitbewohis richten. Deshalb muss sie nicht zu formal sein.
+  en: >
+    Your application should be addressed to the House Captains and your
+    potential future floor members. Therefore is does not have to be too formal.
+
+apply_early:
+  de: >
+    Bitte beachte, dass zu Beginn des Wintersemesers besonders viele Studis 
+    ein Zimmer in Karlsruhe suchen. Bewirb Dich deshalb früh genug, dann hast 
+    du bessere Chancen auf ein Zimmer.
+  en: >
+    Please consider, that at the start of the Winter term a lot of students are 
+    searching for a room in Karlsruhe. So apply early enough to have a better 
+    chance for a room.
+
+further_docs:
+  de: "An weiteren Unterlagen benötigen wir von dir:"
+  en: "Further, we need the following documents from you:"
+
+ciriculum:
+  de: einen Lebenslauf
+  en: a ciriculum vitae
+
+pictures:
+  de: mindestens ein Bild von dir
+  en: at least one foto from you
+
+matriculation:
+  de: deine Immatrikulationsbescheinigung (falls du sie schon hast)
+  en: your enrollment certificate (if you already have one)
+
+send_to:
+  de: "Schicke das Bewerbungsformular <strong>und die obigen Unterlagen</strong> an folgende Email:"
+  en: "Send the application from <strong>and the above documents</strong> to the following Email:"
+
+disclaimer_incomplete:
+  de: <strong>Unvollständige Bewerbungen können wir leider nicht berücksichtigen!</strong> Also lieber nochmals alles auf Vollständigkeit überprüfen.
+  en: <strong>We will not consider incomplete applications!</strong> So maybe check twice for completeness.
+
+disclaimer_answer:
+  de: >
+    Leider ist es uns aufgrund der vielen Bewerbungen nicht immer möglich, auf
+    alle eingehenden Bewerbungen sofort zu antworten. Bitte habe dafür
+    Verständnis.   
+  en: >
+    Because of the amount of applications we receive, we cannot always reply
+    immediately to everyone. We ask for your understanding.
+
+process:
+  de: Wie wir Bewerbungen handhaben
+  en: How we handle Applications
+
+process_body:
+  de: >
+    Jeder Flur, der ein freies Zimmer hat, ist eigenverantwortlich dafür
+    zuständig neue Mitbewohnis auszuwählen. Dies ermöglicht jedem Flur eine
+    lebhafte Gemeinschaft und erschaffen und zu erhalten. Der dezentrale Ansatz 
+    heißt aber auch, dass unser Bewerbungsprozess manchmal unvorhersehbar sein
+    kann. Vor Beginn des Wintersemesters, wenn der Ansturm besonders groß ist
+    laden wir eine ausgewählte Gruppe von Bewerbenden zu einem zentralen 
+    "Vorstellungsgespräch" ein (keine Sorge, ist ganz harmlos), an dem alle 
+    Flure teilnehmen können.
+  en: >
+    Each floor with vacant rooms is reponsible for choosing their new floor
+    member independently. This allows each floor to create and maintain a 
+    lively community. However the decentralized approach also means, that our 
+    application process can sometimes be unpredictable.
+    Before the start of the Winter term, when the amount of applications is 
+    very high, we invite a selected group of applicants to a centralized
+    "applicants meeting" (don't worry. Completely harmless), where all floors 
+    participate.
+
+exchange_students:
+  de: Austauschstudis
+  en: Exchange Students
+
+exchange_students_text:
+  de: >
+    Die Insterburg, das HFK und das HaDiKo haben einen gemeinsamen Pool an
+    Zimmern extra für Austauschstudis. Nimmst du an einem Austauschprogramm 
+    an einer der Karlsruher Hochschulen/Unis teil, so solltest du dich 
+    zentral für ein Zimmer
+    <a href="https://www.hadiko.de/bewerbung/austauschzimmer">
+      über das HaDiKo
+    </a> 
+    bewerben. Du kannst dich aber auch trotzdem noch für ein reguläres Zimmer 
+    bewerben.
+  en: >
+    There is a common pool of rooms for exchange students in the Insterburg, 
+    the HFK and the HaDiKo. If you participate in an exchange program at one 
+    of Karlsruhe's universities, you should apply for a room 
+    <a href="https://www.hadiko.de/en/application/exchange-room">
+      through HaDiKo
+    </a>.
+    You can still apply for a regular room aswell.

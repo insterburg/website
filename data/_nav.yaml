@@ -1,0 +1,44 @@
+nav_entries:
+  - filename: index.html
+    bar: True
+    display:
+      de: Startseite
+      en: Home
+  - filename: application.html
+    bar: True
+    display:
+      de: Bewerbung
+      en: Application
+  - filename: tutorials.html
+    bar: True
+    display:
+      de: Tutoriate
+      en: Tutoriates
+  - filename: directions.html
+    bar: True
+    display:
+      de: Anfahrt
+      en: Directions
+  - filename: pictures.html
+    bar: True
+    display:
+      de: Fotos
+      en: Pictures
+  - filename: administration.html
+    bar: True
+    display:
+      de: Verwaltung
+      en: Self-Governance
+  - filename: https://my.insterburg.org
+    bar: True
+    icon: fa-lock
+    display: Intern 
+  - filename: impressum.html
+    bar: False
+    display:
+      de: Impressum und Datenschutz
+      en: Imprint and Data Privacy
+
+nav_copyright:
+  de: insterburg.org, Alle rechte vorbehalten.
+  en: insterburg.org, All Rights Reserved.

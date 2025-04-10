@@ -1,0 +1,50 @@
+directions:
+  de: Anfahrt
+  en: Directions
+
+public_transport:
+  de: Öffentliche Verkehrsmittel
+  en: Public Transport
+
+public_transport_body_1:
+  de: "Um unser Wohnheim vom Hauptbahnhof zu erreichen gibt es zwei Möglichkeit:"
+  en: "To reach our dormitory from Karlsruhe main station, there are two possibilities:"
+
+bus:
+  de: >
+    Zuerst nimmt man die S-Bahn "Linie 2" bis zur Haltestelle "Durlacher Tor". 
+    Von dort fährt man mit dem Bus "Linie 30" bis zur Haltestelle "Schneidemühler Strasse".
+    Dann sind es nur noch ca. 200m Fußweg zur Insterburg. 
+  en: >
+    First you take the S-Bahn (tram) line 2 until the stop "Durlacher Tor".
+    From there you take the bus line 30 until the stop "Schneidenühler Straße".
+    From there it's just 200m by foot to Insterburg.
+
+tram:
+  de: >
+    Auch hier nimmt man die S-Bahn "Linie 2" bis zur Haltestelle "Durlacher Tor". 
+    Von dort fährt man mit der "Linie 4" weiter bis zur Haltestelle "Waldstadt Zentrum".
+    Dann sind es allerdings noch ca. 10 Minuten Fußweg bis zur Insterburg. 
+  en: >
+    Here you also take the S-Bahn line 2 until the stop "Durlacher Tor".
+    From there you take The S-Bahn line 4 until the stop "Waldstadt Zentrum".
+    From there however, it's still 10 minute by foot the reach Insterburg.
+
+by_bike:
+  de: Mit dem Auto/Fahrrad
+  en: By Bike/Car
+
+by_bike_body:
+  de: >
+    Dem Adenauerring in Richtung Stadion folgen. Dort rechts in die Theodor-Heuss-Allee
+    abbiegen und dieser bis zur Insterburger Straße folgen. Gleich die erste Einfahrt rechts 
+    führt auf unseren Parkplatz.
+  en: >
+    You follow Adenauerring towards the soccer statium. At the stadium, you go right
+    into Theodor-Heuss-Allee and follow it until Insterburger Straße.
+    The first driveway on the right leads onto our parking lot.
+
+address:
+  de: Anschrift
+  en: Mailing Address
+

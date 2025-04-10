@@ -1,0 +1,32 @@
+<a href="#" class="overlay-menu-hide navigation-hide">
+    <i class="fa fa-window-close" aria-hidden="true"></i>
+</a>
+
+<div class="overlay-menu-inner">
+    <nav class="overlay-menu-nav">
+        <ul id="nav">
+        {% for e in NAV_ENTRIES %}
+            <li class="{{ 'active-menu' if file == e.filename }}">
+                <a href="{{ e.filename }}">
+                {% if e.get("icon") is not none %}
+                    <i class="fa {{ e.icon }}" aria-hidden="true"></i>
+                {% endif %}
+                    {{ e.display }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </nav>
+</div>
+
+<div class="overlay-navigation-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p class="copyright font-alt m-b-0">
+                &copy; {{ now.year }} {{ NAV_COPYRIGHT }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

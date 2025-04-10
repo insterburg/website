@@ -1,0 +1,64 @@
+{% extends "_main.jinja" %}
+
+{% block content %}
+<div class="container-fluid" id="wrapper">
+  <div class="container" id="directions">
+    <div class="row">
+      <h1>
+        <i class="fa fa-map-signs" aria-hidden="true"></i>
+        <nbsp>
+        {{ DIRECTIONS }}
+      </h1>
+
+      <div class="col-md-6">
+        <h2 class="subpage-h2">
+          <i class="fa fa-subway" aria-hidden="true"></i>
+          {{ PUBLIC_TRANSPORT }}
+        </h2>
+        <p>
+          {{ PUBLIC_TRANSPORT_BODY_1 }}
+          <ol>
+            <li>
+              <i class="fa fa-bus" aria-hidden="true"></i> 
+                {{ BUS }}
+            </li>
+            <br>
+            <li>
+              <i class="fa fa-train" aria-hidden="true"></i> 
+                {{ TRAM }}
+            </li>
+          </ol>
+        </p>
+        <br>
+        <h2 class="subpage-h2">
+          <i class="fa fa-car" aria-hidden="true"></i>
+          <nbsp>
+          {{ BY_BIKE }}
+        </h2>
+        <p>
+          {{ BY_BIKE_BODY }}
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="flexible-container">
+          <iframe width="425" height="350" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.65391018826!2d8.431326615680666!3d49.03618907930534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479707dd64444147%3A0xe5f0e7db443810b5!2sInsterburg!5e0!3m2!1sde!2sus!4v1470572582021;output=embed">
+          </iframe>
+        </div>
+        <div class="flexible-container">
+          <h3 class="postal-route">
+            <i class="fa fa-envelope" aria-hidden="true"></i> {{ ADDRESS }}
+          </h3>
+          <p class="postal-route">
+            Insterburg e.V.
+            <br>
+            Insterburger Str. 2
+            <br>
+            76139 Karlsruhe
+          </p>	
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

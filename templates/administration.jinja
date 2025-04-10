@@ -1,0 +1,41 @@
+{% extends "_main.jinja" %}
+
+{% block content %}
+<div class="container-fluid" id="wrapper">
+	<div class="container" id="administration">
+
+    <div class="row">
+      <section class="col-md-12">
+        <h1>
+          <i class="fa fa-users"></i>
+          <nbsp>
+          {{ ADMINISTRATION }}
+        </h1>
+        <p class="p-130-justify">{{ INTRO | safe }}</p>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class="col-md-12">
+        <h2 class="subpage-h2">{{ HOUSE_CAPTAINS }}</h2>
+        <p class="p-130-justify">{{ HOUSE_CAPTAINS_BODY }}</p>
+      </section>
+    </div>
+
+    <div class="row">
+			<section class="col-md-12">
+        <h2 class="subpage-h2">{{ FLOOR_SPEAKERS }}</h2>
+        <p class="p-130-justify">{{ FLOOR_SPEAKERS_BODY }}</p>
+      </section>
+    </div>
+
+    <div class="row">
+			<section class="col-md-12">
+        <h2 class="subpage-h2">{{ GENERAL_ASSEMBLY }}</h2>
+        <p class="p-130-justify">{{ GENERAL_ASSEMBLY_BODY }}</p>
+      </section>
+    </div>
+
+	</div>
+</div>
+{% endblock content %}

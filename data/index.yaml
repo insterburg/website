@@ -1,0 +1,391 @@
+index_dormitory:
+  de: Studiwohnheim
+  en: Student dormitory
+
+index_who_are_we:
+  de: Wer sind wir?
+  en: Who are we?
+
+index_who_are_we_par1:
+  de: >
+    Die Insterburg wird zusammen mit dem HaDiKo, 
+    dem HFK und dem Kolleg am Ring vom Studiwohnheim des Karlsruher 
+    Instituts für Technologie (KIT) e.V. 
+    getragen. 
+    Anders als die meisten anderen Wohnheime werden 
+    diese Häuser von uns Studis selbstverwaltet. 
+  en: >
+    The Insterburg, together with the HaDiKo, 
+    the HFK and the Kolleg am Ring, 
+    is supported by the student dormitory of 
+    Karlsruhe Institute of Technology (KIT) e.V. 
+    Unlike most other student dormitories, 
+    these houses are self-managed by us students.
+
+index_who_are_we_par2:
+  de: > 
+    Selbstverwaltung bedeutet, dass die meisten Aufgaben, 
+    für die sonst eine externe Verwaltung zuständig 
+    ist, von uns Studis selbst übernommen werden. 
+    Dadurch haben wir die Möglichkeit, selbst aktiv 
+    das Leben in der Insterburg zu gestalten und zu organisieren. 
+    Das geschieht durch die Haussprechis, die 
+    Flursprechis und die einzelnen Tutoriate. 
+  en: >
+    Self-managed means that nearly all tasks that 
+    would otherwise be the responsibility of an 
+    external administration are taken on by us students. 
+    Thus, we have the opportunity to actively shape 
+    and organize life in Insterburg ourselves. 
+    This is done by the house captains, 
+    the floor speakers and the individual tutoriates.
+
+index_highlights:
+  de: Unsere Highlights
+  en: Our Highlights
+
+index_highlights_bar_desc:
+  de: >
+    Was wäre ein gutes Wohnheim ohne seine eigene von den Bewohnern 
+    betriebene Bar? Schau bei unseren Parties vorbei und bereite 
+    dich auf unvergessliche Abende mit Billard, Tischkicker, Tischtennis, guter 
+    Musik und mehr vor! Für mehr Informationen über die Bar 
+    ließ bei den Tutoriaten weiter. 
+  en: >
+    What would a good dorm be without its own resident-run bar? 
+    Stop by our parties and prepare for unforgettable evenings with billiards, 
+    table football, table tennis, good music and more! 
+    For more information about the bar, continue reading at the tutoriates.
+
+index_highlights_instermat_desc:
+  de: >
+    Eine besondere Maschine in der Insterburg ist der Instermat. 
+    Dieser versorgt dich mit Schlüsseln für verschiedene Räume und 
+    Einrichtungen wie zum Beispiel dem Flügel, der Werkstatt und dem Kraftraum. 
+    Im Instermat gibt es auch nur für Tutoren zugängliche Schlüssel. 
+  en: >
+    A special machine in Insterburg is the Instermat. 
+    This provides you with keys for various rooms and facilities such as 
+    the grand piano, the workshop and the training room. 
+    The Instermat also has keys that are only accessible to tutors.
+
+index_highlights_bike_cage:
+  de: Fahradkäfig
+  en: Bike Cage
+
+index_highlights_bike_cage_desc:
+  de: > 
+    Wenn du in der Insterburg wohnst musst du dir keine Sorgen mehr machen, 
+    dass eines Tages dein Fahrrad weg ist. 
+    Wir bieten einen überdachten Fahrradkäfig an, 
+    in dem du dein Fahrrad sicher abstellen kannst. 
+  en: >
+    If you live in Insterburg you don't have to worry anymore,
+    that one day your bike will be gone. 
+    We offer a roofed bike cage, where you can safely park your bike.
+
+index_highlights_parking:
+  de: Parkplätze
+  en: Parking
+
+index_highlights_parking_desc:
+  de: > 
+    Anders als viele Wohngelegenheiten bietet die Insterburg einen privaten
+    Parkplatz an, welcher kostenfrei das ganze Jahr verfügbar ist
+    und auch deinem Fahrzeug eine feste Bleibe bietet. 
+  en: >
+    Unlike many housing options, Insterburg offers a private parking space, 
+    which is available free of charge all year round 
+    and also offers your vehicle a permanent home.
+
+index_highlights_community:
+  de: Aktive, internationale Gemeinschaft
+  en: Active, International Community
+
+index_highlights_community_desc:
+  de: >
+    Die Insterburg erfreut sich einer aktiven und sehr internationalen
+    Gemeinschaft von Studis, die nicht nur zusammen wohnen, sonder
+    auch zusammen Zeit verbringen wollen.
+  en: >
+    Insterburg enjoys an active and very international community of university
+    students, who not only live together, but also want to spend time together.
+
+index_accommodations:
+  de: Die Wohnmöglichkeiten & Kosten
+  en: The Accommodation Options & Costs
+
+index_accommodation_par1:
+  de: >
+      Unser Wohnheim hat 12 Stockwerke.
+      Auf jedem Stock bzw. Flur gibt es eine Küche, ein Badezimmer mit 
+      Dusche, und zwei Toiletten.
+      Ausserdem hat jeder Flur noch einen kleinen Balkon.
+      Pro Flur gibt es insgesamt 12 Zimmer: 10 davon mit 9m<sup>2</sup> 
+      und 2 mit 16m<sup>2</sup> oder 14m<sup>2</sup> Wohnfläche.
+      Eines der Zimmer auf dem 1. Flur wird als 
+      <a href="tutorials.html#guestroom">Gästezimmer</a> genutzt, 
+      ein weiteres dient den Haussprechis als Büro. Auf dem 7. 
+      Flur gibt es ein <a href="tutorials.html#studyroom">Lernzimmer</a>. 
+      Außerdem ist auf jedem Flur ein Zimmer für Austausch-Studierende reserviert. 
+      Insgesamt stehen uns damit <strong>142 Zimmer</strong> zur Verfügung. 
+      Die Mietkosten für diese Zimmer kannst du der Tabelle entnehmen.
+      Im Normalfall bekommen neue Bewohner ein normales 9m<sup>2</sup> Zimmer 
+      bis eins der großen frei wird und dann der gesamte Flur zusammen darüber
+      entscheidet, wem nun das große Zimmer zusteht.
+  en: >
+      Our dormitory has 12 stories.
+      On each story or rather floor there is a kitchen, a bathroom with shower,
+      and two toilets. Each floor also has a small balcony.
+      There are a total of 12 rooms per floor: 10 of them with 9m<sup>2</sup> 
+      and 2 with 16m<sup>2</sup> or 14m<sup>2</sup> living space.
+      One of the rooms on the 1st floor is used as a
+      <a href="tutorials.html#guestroom">guest room</a>,
+      another serves as an office for the house captains. On the 7th floor
+      there is a <a href="tutorials.html#studyroom">study room</a>.
+      In addition, one room on each hallway is reserved for exchange students. 
+      Therefore we have a total of <strong>142 rooms</strong> available. 
+      The rental costs for our rooms are listed in the table below.
+      Normally new residents get a normal 9m<sup>2</sup> room until one of the
+      bigger ones becomes available and then the entire floor decides together,
+      on who is now entitled to the large room.
+
+index_accommodation_table_area:
+  de: Wohnfläche
+  en: Area
+
+index_accommodation_table_cold_rent:
+  de: Kaltmiete
+  en: Basic Rent
+index_accommodation_table_extra_costs:
+  de: Nebenkosten
+  en: Utilities Expenses
+index_accommodation_table_club_contribution:
+  de: Vereinsbeitrag
+  en: Club Contribution
+index_accommodation_table_total:
+  de: Gesamt
+  en: Total
+index_accommodation_table_deposit:
+  de: Kaution
+  en: Deposit
+index_accommodation_table_monthly:
+  de: monatlich
+  en: monthly
+
+index_accommodation_table_one_time:
+  de: einmalig
+  en: one time
+
+
+index_accommodation_room_facilities:
+  de: Zimmerausstattung
+  en: Room Furniture
+
+index_accommodation_room_facilities_subtitle:
+  de: "Die standardmäßige Ausstattung der Zimmer besteht aus:"
+  en: "The standard furniture of the rooms consists of:"
+
+index_accommodation_room_facilities_bed:
+  de: Bett 90cm x 200cm (Bettkissen, Decke und Matraze inklusive)
+  en: Bed 90cm x 200cm (pillow, blanket and mattress included)
+
+index_accommodation_room_facilities_desk:
+  de: Schreibtisch
+  en: Desk
+
+index_accommodation_room_facilities_roll_container:
+  de: Rollcontainer
+  en: Rolling Cabinet
+
+index_accommodation_room_facilities_desk_chair:
+  de: Schreibtischstuhl
+  en: Desk Chair
+
+index_accommodation_room_facilities_wardrobe:
+  de: großer Einbauschrank
+  en: large build-in Wardrobe
+
+index_accommodation_room_facilities_internet:
+  de: High-Speed Internetzugang via LAN und WLAN
+  en: High-speed internet access via LAN und WLAN
+
+index_accommodation_internet:
+  de: Wie sieht es mit dem Internet aus?
+  en: What about the internet?
+
+index_accommodation_internet_par:
+  de: >
+    Zusätzlich zu dem im ganzen Haus verfügbaren WLAN, 
+    verfügt jedes Zimmer über einen LAN-Anschluss. 
+    Dieser erreicht dank moderner Glasfaser Geschwindigkeiten von 800Mb/s.
+    Private Hotspots sind wegen des internen Netzes nicht erlaubt. 
+  en: >
+    In addition to the WiFi available throughout the house, 
+    every room additionally has a LAN port.
+    Thanks to modern fiber optics, this achieves speeds of 800Mb/s.
+    Private hotspots are not permitted due to the internal network.
+
+
+
+index_how_to_contract:
+  de: Wie bekomme ich meinen Vertrag?
+  en: How do i get my contract?
+
+index_how_to_contract_par:
+  de: >
+    Alle Verträge der Insterburg sind grundsätzlich immer befristet. 
+    Eine Verlängerung ist nur mit Zustimmung aller Flurmitglieder möglich.
+    Meist lernst du deinen Flur in einem Bewerbungsgespräch kennen. 
+    Falls dieser sich für dich entscheidet, 
+    wird dein erster Vertrag für einen Zeitraum von sechs 
+    Monaten gelten. 
+    Danach bekommst du einen neuen Vertrag der für jeweils 12 Monate gilt.
+  en: >
+    All Insterburg contracts are fundamentally always limited in time.
+    An extension is only possible with the consent of everyone floor member.
+    You usually get to know your floor in an interview. 
+    If they choose you, your first contract will be for a period of six months.
+    After that you will then receive a new contract that is valid for 12 
+    months each.
+
+index_special:
+  de: Was macht uns so besonders?
+  en: What Makes Us so Special?
+  
+
+index_special_self_government:
+  de: Selbstverwaltung
+  en: Self-Government
+
+index_special_self_government_par:
+  de: >
+    Die Insterburg ist ein selbstverwaltetes Studiwohnheim in Karlsruhe.
+    Selbstverwaltet bedeutet, dass die Studis die organisatorischen Aufgaben 
+    wie zum Beispiel die Vergabe von Zimmern selbst übernehmen. 
+    Die übergeordnete Verwaltung obliegt dem 
+    <a class="outer-href" href="https://www.studentenwohnheim-ev.de/">
+    Studentenwohnheim Karlsruhe e.V.
+    </a> 
+    Über alle internen Angelegenheiten wird jedoch selbstständig entschieden. 
+    <br>
+    Dies geschieht durch die Wahl von Haussprechis, Flursprechis und Tutoren
+    für spezielle Aufgaben (siehe Tutoren Seite) sowie die Organisation von
+    diversen Hausfesten. 
+    Die Selbstverwaltung führt dazu, dass es bei uns einige Angebote gibt, die
+    man in Studiwohnheimen normalerweise nicht findet. 
+    <br>
+    Da wir über eigene finanzielle Mittel verfügen, kann die 
+    Hausvollversammlung, die einmal im Semester zusammentritt außerdem 
+    unbürokratisch über Anschaffungen entscheiden.
+    <br>
+  en: >
+    The Insterburg is a self-managed student residence in Karlsruhe.
+    Self-managed means that us students take on most organizational tasks 
+    such as the allocation of rooms. 
+    The higher-level administration is the responsibility of the 
+    <a class="outer-href" href="https://www.studentenwohnheim-ev.de/">
+    Studentenwohnheim Karlsruhe e.V.
+    </a> 
+    However, all internal matters are decided independently by the inhabitants.
+    <br>
+    This is done by electing house captains, floor speakers and tutors for 
+    specific tasks (see tutoriates page) as well as the organization of various
+    house parties. 
+    Self-governance allows us to have some offers that you don't normally find
+    in student dormitories. 
+    <br>
+    Since we have our own financial resources, the general assembly, which 
+    takes place once per semester, can also vote on purchases in an 
+    unbureaucratic manner.
+    <br>
+
+index_special_sport:
+  de: Sport
+  en: Sport
+
+index_special_sport_par:
+  de: >
+    Die Insterburg liegt im Wald, perfekt für Spaziergange oder zum Joggen, 
+    doch das ist nicht alles. 
+    Der Instermat versorgt dich auch noch mit freiem Eintritt in die DAV
+    Kletterhalle (8 Minuten mit dem Fahrrad).
+    Wenn du ein Freund von Fitness Studios bist, kannst du auch unseren Kraftraum
+    verwenden. Dieser befindet sich in unserem Schwesterwohnheim HFK (500m) 
+    und ist 24/7 benutzbar. 
+    Außerdem besitzen wir einen schönen Garten, in dem oft Spiele organisiert
+    werden. 
+  en: >
+    The Insterburg is located in the forest, perfect for walks or jogging, but
+    that's not all. 
+    The Instermat also provides you with free entry to the DAV climbing hall 
+    (8 minutes by bike).
+    If you are a fan of fitness studios, you can also use our training room,
+    which is located in our sister dormitory HFK (500m) and can be used 24/7. 
+    We also have a beautiful garden where we often organize games.
+
+index_special_tutorials:
+  de: Tutoriate
+  en: Tutorials
+
+index_special_tutorials_par:
+  de: >
+    Damit sich jeder im Wohnheim einbringen kann, 
+    haben wir sogenannte Tutoriate ins Leben gerufen. 
+    Tutoriate bestehen aus den Leuten, die sich freiwillig bereit erklären 
+    sich in einem Bereich des Wohnheims zu engagieren, beispielsweise das 
+    Bar-, Netzwerk- und Werkstatttutoriat. 
+    Auf der <a href="tutorials.html">Tutoriate-Seite</a> kannst du dir einen 
+    detaillierten Überblick verschaffen.
+  en: >
+    So that everyone in the dormitory can get involved, 
+    we have created so-called tutoriates. 
+    Tutoriates consist of people volunteering their time in an area 
+    of the dormitory, for example, the bar, network and workshop tutoriate.
+    On the <a href="tutorials.html">tutoriates page</a> you can get a 
+    detailed overview.
+
+index_special_study:
+  de: Studium
+  en: Study
+
+index_special_study_par:
+  de: >
+    Man zieht i.d.R. nicht nur wegen der Unterhaltungsmöglichkeiten in ein
+    Studiwohnheim, sondern hauptsächlich, weil es ein passender Wohnort
+    für das Studium ist. 
+    Das Lernzimmer bietet alles was ihr braucht wie ein Whiteboard, einen
+    Drucker und schnelles Internet. 
+    Außerdem liegt die KIT-Bibliothek mit dem Fahrrad nur circa 13 Minuten
+    entfernt von der Insterburg, mit dem Bus dauert es ca. 5 Minuten.
+    Diese ist rund um die Uhr offen 
+    (<a href="https://www.bibliothek.kit.edu/cms/index.php" class="outer-href"
+    target="_blank">KIT-Bibliothek</a>).
+  en: >
+    You don't usually move into a student dorm just because of the
+    entertainment options, but mainly because it is a suitable place to live
+    for your university studies. 
+    The study room has everything you need such as a whiteboard, a printer and
+    fast internet. 
+    In addition, the KIT library is only about 13 minutes away from Insterburg
+    by bike, by bus it takes about 5 minutes.
+    The library is open around the clock 
+    (<a href="https://www.bibliothek.kit.edu/cms/index.php" class="outer-href"
+    target="_blank">KIT Library</a>).
+
+index_special_international:
+  de: Internationalität
+  en: International
+
+index_special_international_par:
+  de: >
+    Die Insterburg ist ein sehr internationales Wohnheim. 
+    Bei uns wohnen circa 30 Nationalitäten zusammen.
+    Wenn du also andere Kulturen kennenlernen willst komm zu uns und stell 
+    dich vor!
+  en: >
+    The Insterburg is a very international student dormitory. 
+    Around 30 nationalities live together in here.
+    So if you want to get to know other cultures, come to us and introduce
+    yourself!
+

@@ -1,0 +1,78 @@
+pictures_title:
+  de: Fotos aus der Insterburg
+  en: Pictures of Insterburg
+
+pictures:
+  - filename: small_room_1.jpg
+    description: 
+      de: Ein Einrichtungsbeispiel für eines der kleinen  Zimmer in der Insterburg
+      en: An example interior for one of the smaller rooms in Insterburg
+  - filename: small_room_2.jpg
+    description:
+      de: Ein Einrichtungsbeispiel für eines der kleinen  Zimmer in der Insterburg
+      en: An example interior for one of the smaller rooms in Insterburg
+  - filename: kitchen_1.jpg
+    description: 
+      de: Küche in der Insterburg
+      en: Kitchen in Insterburg
+  - filename: kitchen_2.jpg
+    description: 
+     de: Küche in der Insterburg
+     en: Kitchen in Insterburg
+  - filename: big_room_1.jpg
+    description: 
+      de: Ein Einrichtungsbespiel für eines der größeren Zimmer in der Insterburg
+      en: An example interior for one of the bigger rooms in Insterburg
+  - filename: big_room_2.jpg
+    description: 
+      de: Ein Einrichtungsbespiel für eines der größeren Zimmer in der Insterburg
+      en: An example interior for one of the bigger rooms in Insterburg
+  - filename: roof_1.jpeg
+    description: 
+      de: Die Dachterrasse der Insterburg mit Ausblick über Karlsruhe und Umgebung
+      en: The roof terasse of Insterburg mit view over Karlrsruhe and surrounding
+  - filename: roof_2.jpeg
+    description: 
+      de: Die Dachterrasse der Insterburg mit Ausblick über Karlsruhe und Umgebung
+      en: The roof terasse of Insterburg mit view over Karlrsruhe and surrounding
+  - filename: garden_1.jpeg
+    description: 
+      de: Unsere Garteneinrichtung ist von den Bewohners selbst gebaut
+      en: Our garden setup is self-made by inhabitants
+  - filename: garden_2.jpeg
+    description: 
+      de: Bei unseren Events gibt es diverses Kulturprogramm
+      en: At our events there is also diverse cultural program
+  - filename: unifest.jpeg
+    description: 
+      de: Auch am Unifest 2019 war die Insterburg beteiligt
+      en: Insterburg at Unifest 2019 
+  - filename: party_1.jpeg
+    description: 
+      de: Party in der Insterburg
+      en: Party in Insterburg
+  - filename: party_2.jpeg
+    description: 
+      de: Party in der Insterburg
+      en: Party in Insterburg
+  - filename: balcony.jpeg
+    description: 
+      de: Jeder Flur hat einen kleinen Balkon
+      en: Every floor has a small balcony
+  - filename: small_room_3.jpg
+    description: 
+      de: Ein Einrichtungsbeispiel für eines der kleinen  Zimmer in der Insterburg
+      en: An example interior for one of the smaller rooms in Insterburg
+  - filename: bus_stop.jpg
+    description: 
+      de: Blick aus der Bushaltestelle "Schneidenmühlerstraße"
+      en: View out of the bus stop "Schneidenmühlerstraße"
+  - filename: building.jpg
+    description: 
+      de: Das Wohnheim von außen
+      en: The dormitory from the outside
+  - filename: bouldering.jpg
+    description: 
+      de: Die Insterburg bietet für die Bewohner kostenlose Boulderkarten in der DAV Kletterhalle zum Ausleihen an
+      en: Insterburg offers two entry cards for the DAV climbing hall to borrow for all inhabitants for free
+

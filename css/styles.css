@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 #wrapper {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -10,6 +8,7 @@ section.container {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20px;
+  padding-top: 20px;
 	width: 100%;
 }
 section p {
@@ -36,7 +35,14 @@ h1 {
 .container h2 {
 	text-transform: uppercase;
 	text-align: center;
-	padding: 0 0 20px 0;
+	padding: 20px 0 20px 0;
+}
+
+.subpage-h2 {
+	line-height: normal;
+	background-color: #ccf5e5;
+	text-align: center;
+  font-size: 1.5em;
 }
 
 /****** Apartments-and-prices section ******/
@@ -67,33 +73,8 @@ footer {
 	color: black;
 }
 
-/****** Blockquote for Tutoriate ******/
-blockquote {
-	font-size: inherit;
-	border-right: 5px solid #eee;
-	border-left: none;
-}
-blockquote header {
-	margin-top: 0;
-	padding-top: 0;
-	padding-bottom: .7em;
-	background-color: inherit;
-	text-align: right;
-	font-weight: 600;
-}
-blockquote footer {
-	margin-top: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	background-color: inherit;
-	text-align: right;
-}
-blockquote p {
-	text-align: right;
-}
 
 /******* Carousel *******/
-
 #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 30px;
@@ -173,121 +154,107 @@ blockquote p {
     float: left;
     margin-right: 10px;
 }
+
 /****** Tutoriate ******/
-#tutorials {
-	padding: 80px 0 20px 0;
+.tutoriat-about-row {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.rowBewerbung{
-	margin: 30px;
+.tutoriat-about {
+  padding: 0.3em;
 }
 
-.tutoriat-select, .bootstrap-select.btn-group:not(.input-groupt-btn) {
-	margin: 0px 10px 20px 0px;
-}
-.no-left-right-padding {
-	padding-left: 0;
-	padding-right: 0;
-}
-.no-margin-top {
-	margin-top: 0;
-}
-.tutoriat-about p {
-	text-align: justify;
-}
-.align-center {
-	text-align: center;
-}
-.tutoriat-about .thumbnail {
-	position: relative;
-	padding: 0px;
-	margin-bottom: 20px;
-	border: 1px solid;
+button.read-more-btn {
+  border-radius: 12px;
+  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
-.tutoriat-about .thumbnail img {
-	width: 100%;
+button.read-more-btn:focus {
+  outline: none;
 }
 
-.crop{
-	width: 100%;
- height: 250px;
- overflow: hidden;
-}
-/********* Read More Button ***********/
-.read-more-state {
-	display: none;
-}
-
-.read-more-target {
-	opacity: 0;
-	max-height: 0;
-	font-size: 0;
-	transition: .25s ease;
+.tut-info-wrapper {
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  padding-top: 6em;
+  overflow: auto;
+  z-index: 500;
+  text-align: center;
 }
 
-.read-more-target br {
-	display: none;
+.tut-info-wrapper.active {
+  visibility: visible;
+  opacity: 1;
+  top: 0;
 }
 
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-	opacity: 1;
-	font-size: inherit;
-	max-height: 999em;
+.tut-info-box {
+  background-color: #f7f7f7;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  width: 80em;
 }
 
-.read-more-state:checked ~ .read-more-wrap .read-more-target br {
-	display: block;
+.container-tut-slides {
+  padding-bottom: 0.5em;
 }
 
-.read-more-state ~ .read-more-trigger:before {
-	content: 'Show more';
+.tutorial-slides {
+  text-align: center;
 }
 
-.read-more-state:checked ~ .read-more-trigger:before {
-	content: 'Show less';
+.tutorial-picture {
+ max-height: 40em;
+ max-width: 95%;
+ border-radius: 0.3em;
+ padding: 0.3em;
 }
 
-.read-more-trigger {
-	cursor: pointer;
-	display: inline-block;
-	padding: 0 .5em;
-	color: #666;
-	font-size: .9em;
-	line-height: 2;
-	border: 1px solid #ddd;
-	border-radius: .25em;
+.tutorial-description {
+  max-width: 95%;
+  width: 70em;
+  text-align: left;
+  margin: auto;
+  color: black;
 }
-/****** Bewerbung ******/
-#welcome-neo, #red-pill, #blue-pill, #fotos {
-	padding: 80px 30px 20px 30px;
+
+.further-offers-row {
+  /*padding-left: 1em;*/
+  /*padding-right: 1em;*/
 }
-.red-pill, .blue-pill {
-	text-align: center;
-	font-weight: bold;
+
+.further-offers-slide {
+  text-align: center;
 }
-.bewerbung-h1 {
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 2%;
-	padding-bottom: 10px;
+
+.further-offers-picture {
+  max-width: 90%;
+  width: 50em;
+  border-radius: 0.1em;
+  padding: 0.3em;
 }
-.upload-drop-zone {
-	height: 200px;
-	border-width: 2px;
-	margin-bottom: 20px;
+
+.further-offers-description {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-.upload-drop-zone {
-	color: #ccc;
-	border-style: dashed;
-	border-color: #ccc;
-	line-height: 200px;
-	text-align: center
+
+.further-offers-buttons {
+  text-align: center;
 }
-.upload-drop-zone.drop {
-	color: #222;
-	border-color: #222;
-}
+
+
+
+/****** Application ******/
 .btn-glyphicon {
 	padding:8px 0px 8px 8px;
 	margin-right:4px;
@@ -296,20 +263,12 @@ blockquote p {
 	padding: 1px 15px 3px 2px;
 	border-radius:50px;
 }
-.panel {
-	border: none;
-}
 p a.btn {
 	text-decoration: none;
 }
-/****** Anfahrt ******/
-#anfahrt h4{
-	padding: 20px 0;
-	line-height: normal;
-	background-color: #ccf5e5;
-	text-align: center;
-}
-#anfahrt h1 {
+
+/****** Directions ******/
+.container h1 {
 	padding-top: 80px;
 }
 .flexible-container {
@@ -320,10 +279,10 @@ p a.btn {
 	height: 0;
 	overflow: hidden;
 }
-.postweg {
-	text-align:center;
+.postal-route {
+	text-align: center;
 }
-p.postweg {
+p.postal-route {
 	background: #eee;
 }
 .flexible-container iframe,
@@ -335,50 +294,8 @@ p.postweg {
 	width: 100%;
 	height: 100%;
 }
-/****** Feedback ******/
-.contact-form .textarea {
-	min-height: 220px;
-	resize: none;
-}
-.form-control {
-	box-shadow: none;
-	border-color: #eee;
-	height: 49px;
-}
-.form-control:focus {
-	box-shadow: none;
-	border-color: #4cae4c;
-}
-.form-control-feedback {
-	line-height: 50px;
-}
-#feedback h1 {
-	padding-top: 80px;
-}
-#feedback-p {
-	font-size: 150%;
-}
-.send-me-copy-mail {
-	display: none;
-}
-.btn-text-wrap {
-	white-space: normal;
-}
-.send-me-mail-lable:active:hover, .send-me-mail-lable.active:hover, .send-me-mail-lable:hover, .send-me-mail-lable.active {
-	background-color: #fff;
-}
-.btn-group-vertical {
-	display: block;
-	margin-bottom: 25px;
-}
-.btn span.glyphicon {
-	opacity: 0.1;
-	padding-right: 2%;
-}
-.btn.active span.glyphicon {
-	opacity: 1;
-	color: #279430;
-}
+
+/****** Administration ******/
 
 /******* Farben für Sections *******/
 #about-us {

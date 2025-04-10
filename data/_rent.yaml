@@ -1,0 +1,14 @@
+rent_currency: "€"
+
+rent_deposit: 500
+
+rent_cold:
+  - area: 9
+    cost: 125
+  - area: 14
+    cost: 165
+  - area: 16
+    cost: 180
+
+rent_energy: 106
+rent_club_fee: 9

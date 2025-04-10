@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+            Insterburg
+        </a>
+    </div>
+
+    <!-- ICONS NAVBAR -->
+    <ul id="icons-navbar" class="nav navbar-nav navbar-right">
+        <li>
+        {% if lang=='de' %}
+            <a href="/en/{{ file }}">DE</a>
+        {% elif lang=='en' %}
+            <a href="/{{ file }}">EN</a>
+        {% endif %}
+        </li>
+        <li>
+            <a href="#" id="toggle-menu" class="show-overlay" title="Menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </li>
+    </ul>
+    <!-- /ICONS NAVBAR -->
+
+    <ul class="extra-navbar nav navbar-nav navbar-right nav-tabs">
+    {% for e in NAV_ENTRIES if e.bar is true %}
+        <li class="{{ 'active-menu' if file == e.filename}}">
+            <a href="{{ e.filename }}">
+            {% if e.get("icon") is not none %}
+                <i class="fa {{ e.icon }}" aria-hidden="true"></i>
+            {% endif %}
+                {{ e.display }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

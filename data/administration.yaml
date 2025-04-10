@@ -1,0 +1,89 @@
+administration:
+  de: Selbstverwaltung
+  en: Self-Governance
+
+intro:
+  de: >
+    Die Insterburg gehört zum Studierendenwohnheime des KIT e.V. (WeV), einem Verein
+    von selbstverwalteten Studierendenwohnheimen in Karlsruhe.
+    Der WeV besteht aus insgesamt vier Wohnheimen: HaDiKo, Kolleg am Ring, HFK und der Insterburg.
+    <br>
+    Aber, was bedeutet "selbstverwaltet" hier in der Praxis?
+    Erstmal heißt es, dass wir Bewohner selbst entscheiden können, wer bei uns
+    einzieht, anstatt das es eine höhere Verwaltung für uns festlegt.
+    Außerdem ist uns die Gestaltung der Innenräume und des Gartens weitgehend
+    selbst überlassen.
+    Darüber hinaus verfügt die Insterburg über vielfältige Einrichtungen, wie unseren
+    eigenen Proberaum, Werkstatt, Bar und vieles mehr. Diese Einrichtungen werden 
+    dann auch von uns Bewohnis geführt und in Stand gehalten.
+    Mit dieser Gestaltungsfreiheit kommt jedoch auch Verantwortung:
+    Der Fortbestand unseres Wohnheims basiert auf dem freiwilligem Engagement der 
+    Bewohner.
+  en: >
+    The Insterburg is part of the "Studierendenwohnheime des KIT e.V." (WeV), an association
+    of self-governed student dormitories in Karlsruhe.
+    The WeV consists of four dormitories in total: HaDiKo, Kolleg am Ring, HFK and Insterburg.
+    <br>
+    But what does "self-governed" mean in practice?
+    First of all, it means that can choose who moves in with us ourselves, rather than some
+    higher administration choosing this for us.
+    Further, the composition of the interiors and the garden is in large part left to us
+    inhabitants.
+    Moreover, Insterburg accomodates a variety of facilities, such as our own band practice
+    room, a work shop, a bar and much more. These facilities are lead and maintained by
+    us inhabitants.
+    With this creative freedom however also comes responsibility:
+    The continuance of our dormitory is based on the voluntary involvement of the
+    inhabitants.
+
+house_captains:
+  de: Haussprechis
+  en: House Captains
+
+house_captains_body:
+  de: >
+    Die Insterburg hat zwei Bewohnis, die als Haussprechis fungieren und einen
+    Großteil der Verwaltungsaufgaben übernehmen, z.B. Ausstellen von Mietverträgen,
+    managen der Insterburg-Finanzen und der Bewerbungen.
+    Außerdem arbeiten sie eng mit der Verwaltung des WeV zusammen.
+    Die Haussprechis werden bei der Haus-Vollversammlung von den Bewohnis demokratisch gewählt.
+  en: >
+    The Insterburg has two inhabitants, who act as House Captains and take a majority of 
+    the administrative tasks e.g. issueing rental contracts, managing the finances of Insterburg
+    and administering applications.
+    Further they work closely with the administration of WeV.
+    The House Captains are elected democratically by the inhabitants at the general assembly.
+
+floor_speakers:
+  de: Flursprechis
+  en: Floor Speakers
+
+floor_speakers_body:
+  de: >
+    Die Flursprechis verteten ihren jeweiligen Flur gegenüber dem Haus.
+    Weiter sind die Flursprechis dafür verantwortlich, dass ihre Flure Nachfolger für leere Zimmer finden
+    und sind die erste Anlaufstelle bei Konflikten auf dem Flur.
+  en: >
+    Each floor has a floor speaker, who represents the floor towards the house.
+    Further, it is the responsibility of the floor speaker, that the floor is searching
+    for new floor members after a move-out.
+    Additionally, the floor speaker is the first contact person in case of a conflict on
+    the floor.
+
+general_assembly:
+  de: Haus-Vollversammlung
+  en: General Assembly
+
+general_assembly_body:
+  de: >
+    Die Haus-Vollversammlung (HVV) findet einmal pro Semester statt und alle Mitbewohnis
+    nehmen Teil. Hier wird über große Entscheidungen für das Wohnheim abgestimmt, die
+    Budgets für die Tutoriate für das kommende Semester festgelegt und Anschaffungen
+    für das Haus beantragt.
+    Bei der HVV werden auch die Haussprechis gewählt.
+  en: >
+    The general assembly (HVV) takes place once per semester and all inhabitants attend.
+    Here we vote on big decisions for the dormitory, fix the budgets for the following semester
+    and petition on aquisitions.
+    Also, on the HVV the House Captains are elected.
+

@@ -1,0 +1,114 @@
+{% extends "_main.jinja" %}
+
+{% block content %}
+<div class="container-fluid" id="wrapper">
+  <div class='container' id='application'>
+    <div class="row">
+      <section class="col-md-12">
+        <h1>
+          <i class="fa fa-lightbulb-o" aria-hidden='true'></i>
+          <nbsp>
+          {{ TUTORIALS_TITLE }}
+        </h1>
+        <p class="p-130-justify">{{ TUTORIALS_INTRO_1 }}</p>
+        <p class="p-130-justify">{{ TUTORIALS_INTRO_2 }}</p>
+      </section>
+    </div>
+
+    <section>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="subpage-h2">{{ TUTORIALS_OUR_TUTS_TITLE }}</h2>
+        </div>
+      </div>
+      <div class="row tutoriat-about-row">
+        {% for TUT in TUTORIALS_TUTORIALS %}
+          <div class="col-sm-6 tutoriat-about">
+            <button class="read-more-btn" id="read-{{ TUT.name }}" 
+              onclick="showInfo('info-{{ TUT.name }}');initSlide('{{ TUT.name }}')">
+              <h3>
+                <i class="fa fa-{{ TUT.icon }}" aria-hidden="true"></i>
+                <nbsp>
+                {{ TUT.display }}
+              </h3>
+            </button>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+    <br>
+    <section>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="subpage-h2">{{ TUTORIALS_FURTHER_OFFERS_TITLE }}</h2>
+        </div>
+      </div>
+      <div class="row further-offers-row">
+        <div class="col-md-12">
+          {{ TUTORIALS_FURTHER_OFFERS_INTRO }}
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        {% for OFFER in TUTORIALS_FURTHER_OFFERS %}
+          <div class="col-md-6">
+            <div class="further-offers-slide" style="display:none">
+              <img src="/images/further-offers/{{ OFFER.filename }}"
+                class="further-offers-picture">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="further-offers-description">
+              {{ OFFER.description }}
+            </div>
+          </div>
+        {% endfor %}
+        <div class="col-md-6 further-offers-buttons">
+          <button class="prev" onclick="changeOfferSlide(-1, 
+            {{ TUTORIALS_FURTHER_OFFERS|length }})">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button class="next" onclick="changeOfferSlide(1, 
+            {{ TUTORIALS_FURTHER_OFFERS|length }})">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+{% for TUT in TUTORIALS_TUTORIALS %}
+  <div id="info-{{ TUT.name }}" class="tut-info-wrapper">
+    <div class="tut-info-box">
+      <div class="container-tut-slides" id="container">
+        {% for PICTURE in TUT.pictures %}
+          <div class="tutorial-slides {{ TUT.name }}" style="display:none">
+            <img src="/images/tutorials/{{ TUT.name }}/{{ PICTURE }}"
+              class="tutorial-picture">
+          </div>
+        {% endfor %}
+        <div>
+          <button class="prev" onclick="changeSlide('{{ TUT.name }}', 
+            -1, {{ TUT.pictures|length }})">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button class="next" onclick="changeSlide('{{ TUT.name }}',
+            1, {{ TUT.pictures|length }})">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div class="tutorial-description">
+        {{ TUT.description | safe }}
+      </div>
+      <br>
+      <button class="read-less-btn" onclick="hideInfo()">
+        {{ TUTORIALS_HIDE_INFO }}
+      </button>
+    </div>
+  </div>
+{% endfor %}
+<script src="/js/tutorials.js"></script>
+{% endblock content %}

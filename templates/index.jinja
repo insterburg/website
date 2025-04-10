@@ -1,0 +1,258 @@
+{% extends "_main.jinja" %}
+
+{% block content %}
+<section id="hero" class="module-hero module-parallax module-full-height bg-dark"
+  data-background="/images/cover-1920x930.jpg">
+
+  <!-- HERO TEXT -->
+  <div class="hero-caption">
+    <div class="hero-text">
+      <div class="background-special">
+        <h1 class="mh-line-size-1 font-alt m-b-20 wow slideInDown" style="color: #fff">Insterburg</h1>
+        <a href="#about-us" class="section-scroll wow bounceIn" data-wow-duration="2s">
+          <div class="img-logo">
+            <img src="/images/Insterlogo_alt_compressed.png" alt="Insterburg Logo" class="img-circle" width="300"
+              height="300">
+          </div>
+        </a>
+        <h5 class="mh-line-size-4 font-alt m-t-20 wow slideInLeft">{{ INDEX_DORMITORY }}</h5>
+      </div>
+    </div>
+  </div>
+  <!-- /HERO TEXT -->
+</section>
+
+<section class="container" id="about-us">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>{{ INDEX_WHO_ARE_WE }}</h2>
+    </div>
+    <div class="col-lg-12">
+      <h4>
+        {{ INDEX_WHO_ARE_WE_PAR1 }}
+        <br>
+        {{ INDEX_WHO_ARE_WE_PAR2 }}
+      </h4>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="highlights">
+  <h2>{{ INDEX_HIGHLIGHTS }}</h1>
+    <div class="col-md-12" data-wow-delay="0.2s">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators p-2">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active">
+            <img class="img-responsive" src="/images/highlights/bar.png" alt="">
+          </li>
+          <li data-target="#quote-carousel" data-slide-to="1">
+            <img class="img-responsive" 
+              src="/images/highlights/instermat.png" alt="">
+          </li>
+          <li data-target="#quote-carousel" data-slide-to="2">
+            <img class="img-responsive " src="/images/highlights/bike.jpg" alt="">
+          </li>
+
+          <li data-target="#quote-carousel" data-slide-to="3">
+            <img class="img-responsive" src="/images/highlights/car.png" alt="">
+          </li>
+
+          <li data-target="#quote-carousel" data-slide-to="4">
+            <img class="img-responsive " 
+              src="/images/highlights/community.jpg" alt="">
+          </li>
+
+        </ol>
+
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner text-center">
+
+          <div class="item active">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="m-b-20">Bar</h3>
+                <p class="text-center">
+                  {{ INDEX_HIGHLIGHTS_BAR_DESC }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Quote 1 -->
+          <div class="item">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="m-b-20">Instermat</h3>
+                <p class="text-center">
+                  {{ INDEX_HIGHLIGHTS_INSTERMAT_DESC }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item ">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="m-b-20">{{ INDEX_HIGHLIGHTS_BIKE_CAGE }}</h3>
+                <p class="text-center">
+                  {{ INDEX_HIGHLIGHTS_BIKE_CAGE_DESC }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="m-b-20">{{ INDEX_HIGHLIGHTS_PARKING }}</h3>
+                <p class="text-center">
+                  {{ INDEX_HIGHLIGHTS_PARKING_DESC }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quote 1 -->
+          <div class="item">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="m-b-20">{{ INDEX_HIGHLIGHTS_COMMUNITY }}</h3>
+                <p class="text-center" >
+                  {{ INDEX_HIGHLIGHTS_COMMUNITY_DESC }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i
+            class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+</section>
+
+<section class="container" id="apartments-and-prices">
+  <div class="row">
+    <h2>{{ INDEX_ACCOMMODATIONS }}</h2>
+    <div class="col-lg-6">
+      <p>
+        {{ INDEX_ACCOMMODATION_PAR1 }}
+      </p>
+    </div>
+    <div class="col-lg-6 table-responsive">
+      <table class="table table-striped table-bordered" style="margin-bottom: 0px;">
+        <tbody>
+          <tr>
+            <th scope="col">{{ INDEX_ACCOMMODATION_TABLE_AREA }}</th>
+            <th scope="col">
+              {{ INDEX_ACCOMMODATION_TABLE_COLD_RENT }}<br>
+              <sub>({{ INDEX_ACCOMMODATION_TABLE_MONTHLY }})</sub>
+            </th>
+            <th scope="col">
+              {{ INDEX_ACCOMMODATION_TABLE_EXTRA_COSTS}}<br>
+              <sub>({{ INDEX_ACCOMMODATION_TABLE_MONTHLY }})</sub>
+            </th>
+            <th scope="col">
+              {{ INDEX_ACCOMMODATION_TABLE_CLUB_CONTRIBUTION }}<br>
+              <sub>({{ INDEX_ACCOMMODATION_TABLE_MONTHLY }})</sub>
+            </th>
+            <th class="active" scope="col">
+              {{ INDEX_ACCOMMODATION_TABLE_TOTAL }}<br>
+              <sub>({{ INDEX_ACCOMMODATION_TABLE_MONTHLY }})</sub>
+            </th>
+            <th scope="col">
+              {{ INDEX_ACCOMMODATION_TABLE_DEPOSIT }}<br>
+              <sub>({{ INDEX_ACCOMMODATION_TABLE_ONE_TIME }})</sub>
+            </th>
+          </tr>
+          {% for room in RENT_COLD %}
+          <tr>
+            <td>{{ room.area }} m<sup>2</sup></td>
+            <td>{{ room.cost }} {{ RENT_CURRENCY }}</td>
+            <td>{{ RENT_ENERGY }} {{ RENT_CURRENCY }}</td>
+            <td>{{ RENT_CLUB_FEE }} {{ RENT_CURRENCY }}</td>
+            <td class="active">
+              {{ RENT_CLUB_FEE + RENT_ENERGY + room.cost }}
+              {{ RENT_CURRENCY }}
+            </td>
+            <td>{{ RENT_DEPOSIT }} {{ RENT_CURRENCY }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES }}</h3>
+      <p> {{ INDEX_ACCOMMODATION_ROOM_FACILITIES_SUBTITLE }} </p>
+      <ul>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_BED }}</li>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_DESK }}</li>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_ROLL_CONTAINER }}</li>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_DESK_CHAIR }}</li>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_WARDROBE }}</li>
+        <li>{{ INDEX_ACCOMMODATION_ROOM_FACILITIES_INTERNET }}</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>
+        <i class="fa fa-wifi" aria-hidden="true"></i>
+        {{ INDEX_ACCOMMODATION_INTERNET }}
+      </h3>
+      <p>{{ INDEX_ACCOMMODATION_INTERNET_PAR }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="container " id="vertragsfristen">
+  <div class="row">
+    <div class="col-md-12 ">
+      <h2>{{ INDEX_HOW_TO_CONTRACT }}</h2>
+      <p>
+        {{ INDEX_HOW_TO_CONTRACT_PAR }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="besonderheiten">
+  <div class="row">
+    <h2 class="col-md-12">{{ INDEX_SPECIAL }}</h2>
+        <div class="col-md-6">
+          <h3><i class="fa fa-university" aria-hidden="true"></i> {{ INDEX_SPECIAL_SELF_GOVERNMENT }}</h3>
+          <p>
+            {{ INDEX_SPECIAL_SELF_GOVERNMENT_PAR }}
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3><i class="fa fa-users" aria-hidden="true"></i> {{ INDEX_SPECIAL_TUTORIALS }}</h3>
+          <p>
+            {{ INDEX_SPECIAL_TUTORIALS_PAR }}
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <h3><i class="fa fa-leanpub" aria-hidden="true"></i> {{ INDEX_SPECIAL_STUDY }}</h3>
+          <p>
+            {{ INDEX_SPECIAL_STUDY_PAR }}
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3><i class="fa fa-futbol-o" aria-hidden="true"></i> {{ INDEX_SPECIAL_SPORT }} </h3>
+          <p>
+            {{ INDEX_SPECIAL_SPORT_PAR }}
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3><i class="fa fa-globe" aria-hidden="true"></i>  {{ INDEX_SPECIAL_INTERNATIONAL }}</h3>
+          <p>
+            {{ INDEX_SPECIAL_INTERNATIONAL_PAR }}
+          </p>
+        </div>
+  </div>
+</section>
+{% endblock content %}

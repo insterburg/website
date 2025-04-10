@@ -7,7 +7,7 @@ GLOBAL_DATA_PREFIX = "_"
 PAGES = None
 PAGES_EXCLUSION_PREFIX = "_"
 # PAGES = []
-EXPORT_PATH = "./"
+EXPORT_PATH = "./_site"
 
 # Set the languages supported by the page
 LANGS = ["de", "en"]

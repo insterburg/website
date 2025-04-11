@@ -253,9 +253,20 @@ if __name__ == "__main__":
     )
 
     # Cache global data
-    globals = loader.load_yaml_bulk(prefix=GLOBAL_DATA_PREFIX)
+    globals_ = loader.load_yaml_bulk(prefix=GLOBAL_DATA_PREFIX)
 
     now = datetime.utcnow()
+    
+    if os.path.exists(EXPORT_PATH):
+        logger.info(f"{EXPORT_PATH=} exists, removing files ...")
+        shutil.rmtree(EXPORT_PATH)
+
+    # Populate the export path with static content if possible
+    if os.path.isdir(STATIC_PATH):
+        logger.info(
+            f"{STATIC_PATH=} exists, copy to {EXPORT_PATH=} ..."
+        )
+        shutil.copytree(STATIC_PATH, EXPORT_PATH)
 
     for lang in LANGS:
         logger.info(f"Start baking {lang=} ...")
@@ -263,7 +274,7 @@ if __name__ == "__main__":
         locale = Locale(lang, LANGS)
         localizer = Localizer(
             locale=locale,
-            globals=globals
+            globals=globals_
         )
 
         exporter = LocalizedExporter(

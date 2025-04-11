@@ -8,6 +8,7 @@ PAGES = None
 PAGES_EXCLUSION_PREFIX = "_"
 # PAGES = []
 EXPORT_PATH = "./_site"
+STATIC_PATH = "./static"
 
 # Set the languages supported by the page
 LANGS = ["de", "en"]

@@ -30,10 +30,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build static HTML
+      - name: Build static HTML and export website
         run: python ./bake.py
-      - name: Copy Assets
-        run: cp -r  css fonts images js stuff ./_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

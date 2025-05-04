@@ -45,8 +45,8 @@ pictures:
   en: at least one foto from you
 
 matriculation:
-  de: deine Immatrikulationsbescheinigung (falls du sie schon hast)
-  en: your enrollment certificate (if you already have one)
+  de: deine Immatrikulationsbescheinigung (oder Zulassungsbescheinigung)
+  en: your enrollment certificate (or admission paper)
 
 send_to:
   de: "Schicke das Bewerbungsformular <strong>und die obigen Unterlagen</strong> an folgende Email:"

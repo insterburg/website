@@ -7,7 +7,7 @@ rent_cold:
     cost: 129
   - area: 14
     cost: 170
-  - area: 16
+  - area: 18
     cost: 185.5
 
 rent_energy: 106

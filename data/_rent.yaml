@@ -10,5 +10,5 @@ rent_cold:
   - area: 18
     cost: 185.5
 
-rent_energy: 106
+rent_energy: 112
 rent_club_fee: 9
